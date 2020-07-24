@@ -1,0 +1,19 @@
+{
+  "name": "elk-speed",
+  "version": "0.1.0",
+  "description": "Speed tests for ELK",
+  "author": "",
+  "license": "EPL-1.0",
+  "dependencies": {
+    "dateformat": "^3.0.3",
+    "elkjs": "^0.6.2",
+    "glob": "^7.1.6",
+    "systeminformation": "^4.26.10"
+  },
+  "scripts": {
+    "clean": "./gradlew clean && rm -r node_modules && rm -r .venv",
+    "gradle": "./gradlew shadowJar",
+    "build": "npm run gradle",
+    "venv": "python3 -m venv .venv && . ./.venv/bin/activate && pip install -r requirements.txt"
+  }
+}

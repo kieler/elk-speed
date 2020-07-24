@@ -1,0 +1,5 @@
+.gradle
+build
+.venv
+node_modules
+bin

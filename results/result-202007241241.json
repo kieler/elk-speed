@@ -1,0 +1,3324 @@
+{
+ "time": "2020-07-24T09:13:17.907Z",
+ "versions": {
+  "elk": "0.7.0-SNAPSHOT",
+  "elkjs": "0.7.0-SNAPSHOT",
+  "java": "openjdk version \"1.8.0_252\"\nOpenJDK Runtime Environment (build 1.8.0_252-8u252-b09-1~18.04-b09)\nOpenJDK 64-Bit Server VM (build 25.252-b09, mixed mode)\n",
+  "node": "v12.18.2"
+ },
+ "kbest": 10,
+ "system_info": {
+  "cpu_brand": "Core™ i7-8550U",
+  "cpu_manufacturer": "Intel®",
+  "cpu_speed": "1.80",
+  "memory_total": "15.8 GB"
+ },
+ "results": [
+  {
+   "path": "../elk-models/realworld/ptolemy/flattened/algebraic_heateropentank_HeaterOpenTank.json",
+   "nodeEdgeCount": 25,
+   "elk": 8,
+   "elkjs": 33
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/flattened/algebraic_heateropentank_HeaterOpenTankRefactored.json",
+   "nodeEdgeCount": 42,
+   "elk": 17,
+   "elkjs": 51
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/flattened/algebraic_rlc_RLC.json",
+   "nodeEdgeCount": 29,
+   "elk": 13,
+   "elkjs": 27
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/flattened/aspect_cartrackingattackmodeling_CarTrackingAttackModeling.json",
+   "nodeEdgeCount": 108,
+   "elk": 13,
+   "elkjs": 68
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/flattened/aspect_cartrackingattackmodeling_CarTrackingAttackModelingAllAttacksInOneModel.json",
+   "nodeEdgeCount": 163,
+   "elk": 19,
+   "elkjs": 93
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/flattened/aspect_compositeqm_CheckExecutionTimeConstraints.json",
+   "nodeEdgeCount": 34,
+   "elk": 12,
+   "elkjs": 19
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/flattened/aspect_compositeqm_CompositeQM.json",
+   "nodeEdgeCount": 25,
+   "elk": 8,
+   "elkjs": 14
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/flattened/aspect_de_DE2.json",
+   "nodeEdgeCount": 83,
+   "elk": 15,
+   "elkjs": 33
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/flattened/backtrack_primetest_PrimeTest.json",
+   "nodeEdgeCount": 53,
+   "elk": 12,
+   "elkjs": 40
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/flattened/backtrack_ramprollback_RampRollback.json",
+   "nodeEdgeCount": 27,
+   "elk": 14,
+   "elkjs": 22
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/flattened/backtrack_trialmodule_TrialModule.json",
+   "nodeEdgeCount": 51,
+   "elk": 16,
+   "elkjs": 38
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/flattened/backtrack_trialmodule_TrialModuleNonBacktrack.json",
+   "nodeEdgeCount": 51,
+   "elk": 20,
+   "elkjs": 34
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/flattened/ca_conway_Conway.json",
+   "nodeEdgeCount": 67,
+   "elk": 22,
+   "elkjs": 41
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/flattened/ca_conwayrandom_ConwayRandom.json",
+   "nodeEdgeCount": 27,
+   "elk": 7,
+   "elkjs": 15
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/flattened/ci_router_ComplexRouter.json",
+   "nodeEdgeCount": 38,
+   "elk": 18,
+   "elkjs": 26
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/flattened/ci_router_dropqueuetest1.json",
+   "nodeEdgeCount": 36,
+   "elk": 10,
+   "elkjs": 24
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/flattened/ci_router_queuetest1.json",
+   "nodeEdgeCount": 34,
+   "elk": 12,
+   "elkjs": 19
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/flattened/ci_router_Router.json",
+   "nodeEdgeCount": 34,
+   "elk": 15,
+   "elkjs": 19
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/flattened/colt_coltrandom_ColtRandom.json",
+   "nodeEdgeCount": 70,
+   "elk": 14,
+   "elkjs": 23
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/flattened/comm_convolutionalcoder_ConvolutionalCoder.json",
+   "nodeEdgeCount": 65,
+   "elk": 14,
+   "elkjs": 21
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/flattened/comm_huffmandecoder_HuffmanDecoder.json",
+   "nodeEdgeCount": 27,
+   "elk": 8,
+   "elkjs": 14
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/flattened/comm_trellisdecoder_TrellisDecoder.json",
+   "nodeEdgeCount": 62,
+   "elk": 16,
+   "elkjs": 31
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/flattened/comm_viterbidecoder_ViterbiDecoder.json",
+   "nodeEdgeCount": 56,
+   "elk": 15,
+   "elkjs": 21
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/flattened/continuous_bouncingball_BouncingBall.json",
+   "nodeEdgeCount": 25,
+   "elk": 7,
+   "elkjs": 13
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/flattened/continuous_cartpendulum_CartPendulum.json",
+   "nodeEdgeCount": 31,
+   "elk": 9,
+   "elkjs": 16
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/flattened/continuous_cartracking_CarTracking.json",
+   "nodeEdgeCount": 90,
+   "elk": 18,
+   "elkjs": 50
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/flattened/continuous_continuousinsidede_ContinuousInsideDE.json",
+   "nodeEdgeCount": 28,
+   "elk": 17,
+   "elkjs": 25
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/flattened/continuous_hierarchicalexecution_HierarchicalExecution.json",
+   "nodeEdgeCount": 26,
+   "elk": 13,
+   "elkjs": 18
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/flattened/continuous_levelcrossingdetector_LevelCrossingDetector.json",
+   "nodeEdgeCount": 24,
+   "elk": 7,
+   "elkjs": 13
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/flattened/continuous_levelcrossingdetectordetectsglitches_LevelCrossingDetectorDetectsGlitches.json",
+   "nodeEdgeCount": 31,
+   "elk": 8,
+   "elkjs": 14
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/flattened/continuous_pendulum3d_Pendulum3D.json",
+   "nodeEdgeCount": 37,
+   "elk": 13,
+   "elkjs": 17
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/flattened/continuous_sigmadelta_SigmaDelta.json",
+   "nodeEdgeCount": 44,
+   "elk": 20,
+   "elkjs": 26
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/flattened/continuous_starmac_Starmac.json",
+   "nodeEdgeCount": 644,
+   "elk": 76,
+   "elkjs": 380
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/flattened/continuous_staticunits_StaticUnits.json",
+   "nodeEdgeCount": 26,
+   "elk": 16,
+   "elkjs": 18
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/flattened/continuous_staticunits_StaticUnits2.json",
+   "nodeEdgeCount": 28,
+   "elk": 14,
+   "elkjs": 19
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/flattened/continuous_stickymasses_StickyMasses.json",
+   "nodeEdgeCount": 190,
+   "elk": 24,
+   "elkjs": 92
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/flattened/continuous_units_Units.json",
+   "nodeEdgeCount": 25,
+   "elk": 9,
+   "elkjs": 14
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/flattened/continuous_v2v_V2V.json",
+   "nodeEdgeCount": 26,
+   "elk": 14,
+   "elkjs": 15
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/flattened/curriculum_curriculum_Curriculum.json",
+   "nodeEdgeCount": 122,
+   "elk": 19,
+   "elkjs": 40
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/flattened/curriculum_curriculum_Curriculum149.json",
+   "nodeEdgeCount": 134,
+   "elk": 16,
+   "elkjs": 50
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/flattened/curriculum_curriculum_curriculumAbstracted.json",
+   "nodeEdgeCount": 128,
+   "elk": 18,
+   "elkjs": 45
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/flattened/curriculum_curriculum_curriculumLS1.json",
+   "nodeEdgeCount": 128,
+   "elk": 19,
+   "elkjs": 45
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/flattened/curriculum_curriculum_curriculumOption1.json",
+   "nodeEdgeCount": 125,
+   "elk": 19,
+   "elkjs": 46
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/flattened/curriculum_curriculum_curriculumProbStat.json",
+   "nodeEdgeCount": 128,
+   "elk": 18,
+   "elkjs": 46
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/flattened/dde_localzeno_LocalZeno.json",
+   "nodeEdgeCount": 28,
+   "elk": 11,
+   "elkjs": 12
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/flattened/dde_localzeno_LocalZenoTest.json",
+   "nodeEdgeCount": 32,
+   "elk": 10,
+   "elkjs": 14
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/flattened/ddf_eratosthenes_Eratosthenes.json",
+   "nodeEdgeCount": 28,
+   "elk": 18,
+   "elkjs": 21
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/flattened/ddf_huffmandecoder_HuffmanDecoder.json",
+   "nodeEdgeCount": 27,
+   "elk": 8,
+   "elkjs": 13
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/flattened/ddf_LoopSyntactic2.json",
+   "nodeEdgeCount": 31,
+   "elk": 18,
+   "elkjs": 20
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/flattened/ddf_LoopSyntacticC.json",
+   "nodeEdgeCount": 34,
+   "elk": 12,
+   "elkjs": 17
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/flattened/ddf_randomwalk_RandomWalk.json",
+   "nodeEdgeCount": 23,
+   "elk": 7,
+   "elkjs": 12
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/flattened/ddf_rijndaelencryption_RijndaelEncryption.json",
+   "nodeEdgeCount": 55,
+   "elk": 21,
+   "elkjs": 29
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/flattened/de_afdx_AFDX.json",
+   "nodeEdgeCount": 34,
+   "elk": 15,
+   "elkjs": 16
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/flattened/de_clock_Clock.json",
+   "nodeEdgeCount": 32,
+   "elk": 9,
+   "elkjs": 15
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/flattened/de_clock_ClockTest.json",
+   "nodeEdgeCount": 49,
+   "elk": 13,
+   "elkjs": 17
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/flattened/de_clockdrift_ClockDrifts.json",
+   "nodeEdgeCount": 30,
+   "elk": 9,
+   "elkjs": 15
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/flattened/de_CommunicationAnomalyDetectionAOM.json",
+   "nodeEdgeCount": 94,
+   "elk": 28,
+   "elkjs": 43
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/flattened/de_CommunicationAnomalyDetectionCQM.json",
+   "nodeEdgeCount": 89,
+   "elk": 17,
+   "elkjs": 46
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/flattened/de_compositeqm_CheckExecutionTimeConstraints.json",
+   "nodeEdgeCount": 34,
+   "elk": 13,
+   "elkjs": 17
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/flattened/de_compositeqm_CompositeQM.json",
+   "nodeEdgeCount": 25,
+   "elk": 8,
+   "elkjs": 14
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/flattened/de_datagram_Datagram.json",
+   "nodeEdgeCount": 42,
+   "elk": 20,
+   "elkjs": 21
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/flattened/de_datedemo_DateDemo.json",
+   "nodeEdgeCount": 119,
+   "elk": 23,
+   "elkjs": 46
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/flattened/de_de_DE2.json",
+   "nodeEdgeCount": 83,
+   "elk": 19,
+   "elkjs": 25
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/flattened/de_decg_DECGPi.json",
+   "nodeEdgeCount": 49,
+   "elk": 22,
+   "elkjs": 32
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/flattened/de_generatorcontactorload_GeneratorContactorLoad.json",
+   "nodeEdgeCount": 26,
+   "elk": 11,
+   "elkjs": 15
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/flattened/de_inspection_Inspection.json",
+   "nodeEdgeCount": 42,
+   "elk": 19,
+   "elkjs": 20
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/flattened/de_linefault_LineFault.json",
+   "nodeEdgeCount": 183,
+   "elk": 35,
+   "elkjs": 86
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/flattened/de_primetest_PrimeTest.json",
+   "nodeEdgeCount": 53,
+   "elk": 32,
+   "elkjs": 40
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/flattened/de_printingpress_PrintingPress-Validation.json",
+   "nodeEdgeCount": 668,
+   "elk": 67,
+   "elkjs": 363
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/flattened/de_ramprollback_RampRollback.json",
+   "nodeEdgeCount": 27,
+   "elk": 15,
+   "elkjs": 18
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/flattened/de_router_Router.json",
+   "nodeEdgeCount": 25,
+   "elk": 8,
+   "elkjs": 13
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/flattened/de_simpletrafficlight_SimpleTrafficLightDECTA.json",
+   "nodeEdgeCount": 24,
+   "elk": 8,
+   "elkjs": 14
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/flattened/de_tcppackettxrx_TCPPacketTXRX.json",
+   "nodeEdgeCount": 33,
+   "elk": 9,
+   "elkjs": 14
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/flattened/de_timingparadox_TimingParadox.json",
+   "nodeEdgeCount": 82,
+   "elk": 26,
+   "elkjs": 40
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/flattened/de_trilateration_Trilateration.json",
+   "nodeEdgeCount": 1113,
+   "elk": 155,
+   "elkjs": 630
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/flattened/dt_pickstates_pickstates.json",
+   "nodeEdgeCount": 364,
+   "elk": 36,
+   "elkjs": 124
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/flattened/fmi_fmutwoballcollision_CollisionNoFMU.json",
+   "nodeEdgeCount": 38,
+   "elk": 20,
+   "elkjs": 25
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/flattened/fmi_fmutwoballcollision_FMUTwoBallCollision.json",
+   "nodeEdgeCount": 38,
+   "elk": 15,
+   "elkjs": 23
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/flattened/fmipp_generatorcontactorload_GeneratorContactorLoad.json",
+   "nodeEdgeCount": 26,
+   "elk": 12,
+   "elkjs": 14
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/flattened/g4ltl_errorhandling_ErrorHandlingSynthesized.json",
+   "nodeEdgeCount": 29,
+   "elk": 9,
+   "elkjs": 14
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/flattened/g4ltl_numerical_Numerical.json",
+   "nodeEdgeCount": 55,
+   "elk": 17,
+   "elkjs": 21
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/flattened/gr_inversekinematics_InverseKinematics.json",
+   "nodeEdgeCount": 718,
+   "elk": 137,
+   "elkjs": 534
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/flattened/gr_microwave_microwave.json",
+   "nodeEdgeCount": 238,
+   "elk": 35,
+   "elkjs": 91
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/flattened/gr_pendulum_Pendulum.json",
+   "nodeEdgeCount": 44,
+   "elk": 18,
+   "elkjs": 20
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/flattened/gr_pong_Pong.json",
+   "nodeEdgeCount": 77,
+   "elk": 19,
+   "elkjs": 28
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/flattened/gr_robotarm_RobotArm.json",
+   "nodeEdgeCount": 290,
+   "elk": 21,
+   "elkjs": 61
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/flattened/gr_stickymasses_StickyMasses.json",
+   "nodeEdgeCount": 179,
+   "elk": 24,
+   "elkjs": 77
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/flattened/gr_universe_Universe.json",
+   "nodeEdgeCount": 42,
+   "elk": 13,
+   "elkjs": 15
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/flattened/gt_bouncingballx2_BouncingBallX2.json",
+   "nodeEdgeCount": 26,
+   "elk": 8,
+   "elkjs": 13
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/flattened/gt_constoptimization_BaseModel.json",
+   "nodeEdgeCount": 32,
+   "elk": 7,
+   "elkjs": 13
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/flattened/gt_diningphilosophers_DiningPhilosophers.json",
+   "nodeEdgeCount": 69,
+   "elk": 31,
+   "elkjs": 33
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/flattened/gt_mapreduce_MapReduce.json",
+   "nodeEdgeCount": 37,
+   "elk": 17,
+   "elkjs": 18
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/flattened/gt_modelgeneration_ModelGeneration.json",
+   "nodeEdgeCount": 27,
+   "elk": 9,
+   "elkjs": 17
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/flattened/gt_modelgeneration_ModelGenerationDDF.json",
+   "nodeEdgeCount": 32,
+   "elk": 11,
+   "elkjs": 17
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/flattened/hdf_adaptivecoding_AdaptiveCoding.json",
+   "nodeEdgeCount": 29,
+   "elk": 13,
+   "elkjs": 15
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/flattened/hlacerti_multidatatypes_producer.json",
+   "nodeEdgeCount": 19,
+   "elk": 6,
+   "elkjs": 11
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/flattened/hoc_applyfft_ApplyFFT.json",
+   "nodeEdgeCount": 22,
+   "elk": 7,
+   "elkjs": 12
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/flattened/hoc_dftsubset_DFTSubSet.json",
+   "nodeEdgeCount": 26,
+   "elk": 9,
+   "elkjs": 15
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/flattened/hoc_iterateoverarray_IterateOverArray.json",
+   "nodeEdgeCount": 25,
+   "elk": 9,
+   "elkjs": 16
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/flattened/jai_adaptivemedian_AdaptiveMedian.json",
+   "nodeEdgeCount": 24,
+   "elk": 7,
+   "elkjs": 11
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/flattened/jai_imagereconstruction_ImageReconstruction.json",
+   "nodeEdgeCount": 40,
+   "elk": 10,
+   "elkjs": 14
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/flattened/js_googleoauth_GoogleOAuth.json",
+   "nodeEdgeCount": 24,
+   "elk": 7,
+   "elkjs": 14
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/flattened/lib_decg_DECGPi.json",
+   "nodeEdgeCount": 49,
+   "elk": 22,
+   "elkjs": 29
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/flattened/lib_life_Life.json",
+   "nodeEdgeCount": 105,
+   "elk": 24,
+   "elkjs": 37
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/flattened/lib_life_LifeCGAVR.json",
+   "nodeEdgeCount": 75,
+   "elk": 23,
+   "elkjs": 36
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/flattened/lib_life_LifeNoCG.json",
+   "nodeEdgeCount": 36,
+   "elk": 19,
+   "elkjs": 21
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/flattened/modal_abp_ABP.json",
+   "nodeEdgeCount": 43,
+   "elk": 22,
+   "elkjs": 30
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/flattened/modal_blending_Blending.json",
+   "nodeEdgeCount": 32,
+   "elk": 12,
+   "elkjs": 17
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/flattened/net_datagram_Datagram.json",
+   "nodeEdgeCount": 42,
+   "elk": 15,
+   "elkjs": 22
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/flattened/petrinet_petrinetdiningphilosophers_PetriNetDiningPhilosophers.json",
+   "nodeEdgeCount": 51,
+   "elk": 21,
+   "elkjs": 26
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/flattened/pn_blindcommunication_BlindCommunication.json",
+   "nodeEdgeCount": 97,
+   "elk": 26,
+   "elkjs": 43
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/flattened/pn_brockackerman_BrockAckerman.json",
+   "nodeEdgeCount": 34,
+   "elk": 10,
+   "elkjs": 15
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/flattened/pn_countermachine_CounterMachine.json",
+   "nodeEdgeCount": 298,
+   "elk": 69,
+   "elkjs": 291
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/flattened/pn_countermachine_CounterMachinePrelim.json",
+   "nodeEdgeCount": 119,
+   "elk": 28,
+   "elkjs": 65
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/flattened/pn_countermachine_CounterMachineWithException.json",
+   "nodeEdgeCount": 339,
+   "elk": 71,
+   "elkjs": 319
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/flattened/pn_orderedmerge_OrderedMerge.json",
+   "nodeEdgeCount": 29,
+   "elk": 19,
+   "elkjs": 21
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/flattened/pn_removeniltokens_RemoveNilTokens.json",
+   "nodeEdgeCount": 27,
+   "elk": 10,
+   "elkjs": 14
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/flattened/pn_stack_Stack.json",
+   "nodeEdgeCount": 69,
+   "elk": 25,
+   "elkjs": 50
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/flattened/psdf_blindcommunication_BlindCommunication.json",
+   "nodeEdgeCount": 97,
+   "elk": 23,
+   "elkjs": 40
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/flattened/ptalon_smallworld_ParameterSweepSmallWorldSDF.json",
+   "nodeEdgeCount": 27,
+   "elk": 11,
+   "elkjs": 15
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/flattened/ptalon_smallworld_SmallWorldMultiInstanceComposite.json",
+   "nodeEdgeCount": 34,
+   "elk": 10,
+   "elkjs": 15
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/flattened/ptango_chat_ChatClient.json",
+   "nodeEdgeCount": 29,
+   "elk": 10,
+   "elkjs": 14
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/flattened/ptango_chat_ChatClient2.json",
+   "nodeEdgeCount": 29,
+   "elk": 10,
+   "elkjs": 16
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/flattened/ptango_chat_ChatServer.json",
+   "nodeEdgeCount": 48,
+   "elk": 27,
+   "elkjs": 35
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/flattened/ptango_cookies_Cookies.json",
+   "nodeEdgeCount": 30,
+   "elk": 14,
+   "elkjs": 17
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/flattened/ptango_eplus70actuator_EPlus70Actuator.json",
+   "nodeEdgeCount": 154,
+   "elk": 21,
+   "elkjs": 48
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/flattened/ptango_guidance_Guidance.json",
+   "nodeEdgeCount": 167,
+   "elk": 24,
+   "elkjs": 82
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/flattened/ptango_optimizationadvisor_OptimizationAdvisor.json",
+   "nodeEdgeCount": 201,
+   "elk": 20,
+   "elkjs": 70
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/flattened/ptango_smartroom_SmartRoom.json",
+   "nodeEdgeCount": 71,
+   "elk": 15,
+   "elkjs": 24
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/flattened/ptango_temperaturesimulation_EPlusSimulation.json",
+   "nodeEdgeCount": 921,
+   "elk": 95,
+   "elkjs": 411
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/flattened/ptango_ucbpower_DataReadingExample.json",
+   "nodeEdgeCount": 57,
+   "elk": 15,
+   "elkjs": 21
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/flattened/ptango_ucbpower_UCBPowerForServer.json",
+   "nodeEdgeCount": 127,
+   "elk": 37,
+   "elkjs": 42
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/flattened/ptango_ucbpowerptera_UCBPowerPtera.json",
+   "nodeEdgeCount": 58,
+   "elk": 12,
+   "elkjs": 19
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/flattened/ptera_adaptivecarwash_AdaptiveCarWash.json",
+   "nodeEdgeCount": 32,
+   "elk": 11,
+   "elkjs": 19
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/flattened/ptera_adaptivecarwash_AdaptiveCarWashFSM.json",
+   "nodeEdgeCount": 25,
+   "elk": 8,
+   "elkjs": 14
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/flattened/ptera_simultaneouscarwash_SimultaneousCarWash.json",
+   "nodeEdgeCount": 25,
+   "elk": 8,
+   "elkjs": 14
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/flattened/ptera_trafficlight_TrafficLight.json",
+   "nodeEdgeCount": 39,
+   "elk": 12,
+   "elkjs": 17
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/flattened/pthales_adaptivebeamforming_AdaptiveBeamForming.json",
+   "nodeEdgeCount": 34,
+   "elk": 13,
+   "elkjs": 21
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/flattened/pthales_adaptivebeamforming_UCB_ABF.json",
+   "nodeEdgeCount": 34,
+   "elk": 15,
+   "elkjs": 21
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/flattened/pthales_AdaptiveBeamSyntactic.json",
+   "nodeEdgeCount": 34,
+   "elk": 14,
+   "elkjs": 18
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/flattened/pthales_dynamic_ThalesDynamicModalModelPN.json",
+   "nodeEdgeCount": 22,
+   "elk": 6,
+   "elkjs": 10
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/flattened/pthales_fft_FFT.json",
+   "nodeEdgeCount": 43,
+   "elk": 10,
+   "elkjs": 17
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/flattened/ptides_actuatorpattern_ActuatorPattern1.json",
+   "nodeEdgeCount": 24,
+   "elk": 8,
+   "elkjs": 13
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/flattened/ptides_actuatorpattern_ActuatorPattern2.json",
+   "nodeEdgeCount": 29,
+   "elk": 9,
+   "elkjs": 15
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/flattened/ptides_controller_Controller.json",
+   "nodeEdgeCount": 184,
+   "elk": 38,
+   "elkjs": 102
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/flattened/ptides_cosimulation_CoSimulation.json",
+   "nodeEdgeCount": 178,
+   "elk": 36,
+   "elkjs": 115
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/flattened/ptides_distributedpowerplant_DistributedPowerPlant.json",
+   "nodeEdgeCount": 52,
+   "elk": 15,
+   "elkjs": 22
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/flattened/ptides_errorhandling_ErrorHandling.json",
+   "nodeEdgeCount": 31,
+   "elk": 11,
+   "elkjs": 17
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/flattened/ptides_multiplatformtdma_MultiPlatformTDMA.json",
+   "nodeEdgeCount": 100,
+   "elk": 20,
+   "elkjs": 47
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/flattened/ptides_powermanagementunitsamplingwithoutcurrentlocaltime_PowerManagementUnitSamplingWithCurrentLocalTime.json",
+   "nodeEdgeCount": 35,
+   "elk": 10,
+   "elkjs": 17
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/flattened/ptides_powermanagementunitsamplingwithoutcurrentlocaltime_PowerManagementUnitSamplingWithoutCurrentLocalTime.json",
+   "nodeEdgeCount": 32,
+   "elk": 10,
+   "elkjs": 15
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/flattened/ptides_powerplant_PowerPlant.json",
+   "nodeEdgeCount": 52,
+   "elk": 16,
+   "elkjs": 24
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/flattened/ptides_printingpress_PrintingPress_AnimationsOnly.json",
+   "nodeEdgeCount": 286,
+   "elk": 31,
+   "elkjs": 104
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/flattened/ptides_printingpress_PrintingPress.json",
+   "nodeEdgeCount": 680,
+   "elk": 73,
+   "elkjs": 344
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/flattened/ptides_ptidessynchrophasor_PtidesSynchrophasor.json",
+   "nodeEdgeCount": 46,
+   "elk": 12,
+   "elkjs": 19
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/flattened/ptides_srinptides_SRinPtides.json",
+   "nodeEdgeCount": 45,
+   "elk": 15,
+   "elkjs": 21
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/flattened/ptides_srinptides_SRinPtidesLoop.json",
+   "nodeEdgeCount": 32,
+   "elk": 11,
+   "elkjs": 16
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/flattened/ptides_trex_TREX.json",
+   "nodeEdgeCount": 283,
+   "elk": 37,
+   "elkjs": 141
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/flattened/ptides_trex_TREXNetworkV1.json",
+   "nodeEdgeCount": 290,
+   "elk": 37,
+   "elkjs": 140
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/flattened/ptides_trex_TREXNoNetworkAllDigital.json",
+   "nodeEdgeCount": 291,
+   "elk": 35,
+   "elkjs": 141
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/flattened/ptides_trex_TREXPtidesMulticoreDirector.json",
+   "nodeEdgeCount": 61,
+   "elk": 30,
+   "elkjs": 31
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/flattened/ptides_tte_TTE.json",
+   "nodeEdgeCount": 217,
+   "elk": 30,
+   "elkjs": 82
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/flattened/ptolemy_brewery_Brewery.json",
+   "nodeEdgeCount": 54,
+   "elk": 22,
+   "elkjs": 26
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/flattened/ptolemy_brewery_BreweryWireless.json",
+   "nodeEdgeCount": 48,
+   "elk": 17,
+   "elkjs": 20
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/flattened/ptolemy_electricpowersystem_GeneratorContactorLoadFMU.json",
+   "nodeEdgeCount": 25,
+   "elk": 10,
+   "elkjs": 17
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/flattened/ptolemy_electricpowersystem_GeneratorRegulatorProtectorPtides.json",
+   "nodeEdgeCount": 39,
+   "elk": 13,
+   "elkjs": 17
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/flattened/ptolemy_electricpowersystem_GeneratorRegulatorProtectorSimXFMU.json",
+   "nodeEdgeCount": 30,
+   "elk": 13,
+   "elkjs": 15
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/flattened/ptolemy_electricpowersystem_GeneratorRegulatorProtectorSimXRhapsodyFMU.json",
+   "nodeEdgeCount": 30,
+   "elk": 10,
+   "elkjs": 15
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/flattened/ptolemy_electricpowersystem_GeneratorRegulatorProtectorSimXRhapsodyFMUMetronomy.json",
+   "nodeEdgeCount": 50,
+   "elk": 15,
+   "elkjs": 19
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/flattened/ptolemy_electricpowersystem_GeneratorRegulatorProtectorWithBusNotAsAspect.json",
+   "nodeEdgeCount": 37,
+   "elk": 25,
+   "elkjs": 25
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/flattened/ptolemy_electricpowersystem_GeneratorRegulatorProtectorWithConstraintMonitor.json",
+   "nodeEdgeCount": 36,
+   "elk": 10,
+   "elkjs": 15
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/flattened/ptolemy_electricpowersystem_GeneratorRegulatorProtectorWithLogging.json",
+   "nodeEdgeCount": 33,
+   "elk": 11,
+   "elkjs": 17
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/flattened/ptolemy_electricpowersystem_GeneratorRegulatorProtectorWithProcessor.json",
+   "nodeEdgeCount": 36,
+   "elk": 11,
+   "elkjs": 15
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/flattened/ptolemy_electricpowersystem_GeneratorRegulatorProtectorWithSpecificationAsAspect.json",
+   "nodeEdgeCount": 41,
+   "elk": 15,
+   "elkjs": 19
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/flattened/ptolemy_execdemos_demos_BouncingBall.json",
+   "nodeEdgeCount": 25,
+   "elk": 7,
+   "elkjs": 14
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/flattened/ptolemy_execdemos_demos_Collisions.json",
+   "nodeEdgeCount": 74,
+   "elk": 24,
+   "elkjs": 34
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/flattened/ptolemy_execdemos_demos_Controllers.json",
+   "nodeEdgeCount": 63,
+   "elk": 21,
+   "elkjs": 33
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/flattened/ptolemy_execdemos_demos_EvaderAndPursuer.json",
+   "nodeEdgeCount": 38,
+   "elk": 13,
+   "elkjs": 17
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/flattened/ptolemy_execdemos_demos_GuardedCount.json",
+   "nodeEdgeCount": 34,
+   "elk": 17,
+   "elkjs": 19
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/flattened/ptolemy_execdemos_demos_hyvisualdemos_BouncingBall.json",
+   "nodeEdgeCount": 24,
+   "elk": 7,
+   "elkjs": 11
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/flattened/ptolemy_execdemos_demos_hyvisualdemos_LevelCrossingDetectorDetectsGlitches.json",
+   "nodeEdgeCount": 31,
+   "elk": 8,
+   "elkjs": 13
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/flattened/ptolemy_execdemos_demos_hyvisualdemos_Pendulum3D.json",
+   "nodeEdgeCount": 37,
+   "elk": 14,
+   "elkjs": 15
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/flattened/ptolemy_execdemos_demos_hyvisualdemos_SigmaDelta.json",
+   "nodeEdgeCount": 44,
+   "elk": 23,
+   "elkjs": 24
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/flattened/ptolemy_execdemos_demos_Inspection.json",
+   "nodeEdgeCount": 42,
+   "elk": 15,
+   "elkjs": 19
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/flattened/ptolemy_execdemos_demos_OrderedMerge.json",
+   "nodeEdgeCount": 29,
+   "elk": 15,
+   "elkjs": 21
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/flattened/ptolemy_execdemos_demos_Router.json",
+   "nodeEdgeCount": 25,
+   "elk": 7,
+   "elkjs": 13
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/flattened/ptolemy_execdemos_demos_SigmaDelta.json",
+   "nodeEdgeCount": 44,
+   "elk": 23,
+   "elkjs": 22
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/flattened/ptolemy_execdemos_demos_TimingParadox.json",
+   "nodeEdgeCount": 82,
+   "elk": 27,
+   "elkjs": 38
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/flattened/ptolemy_execdemos_demos_TransmitAntennaPattern.json",
+   "nodeEdgeCount": 46,
+   "elk": 16,
+   "elkjs": 21
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/flattened/ptolemy_execdemos_demos_ViterbiDecoder.json",
+   "nodeEdgeCount": 56,
+   "elk": 14,
+   "elkjs": 21
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/flattened/ptolemy_faultmodels_CommunicationAnomalyDetectionCQM.json",
+   "nodeEdgeCount": 98,
+   "elk": 27,
+   "elkjs": 47
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/flattened/ptolemy_faultmodels_ExpectationMaximization.json",
+   "nodeEdgeCount": 40,
+   "elk": 15,
+   "elkjs": 21
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/flattened/ptolemy_faultmodels_GMMConvergenceAnalysis.json",
+   "nodeEdgeCount": 88,
+   "elk": 28,
+   "elkjs": 34
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/flattened/ptolemy_fuelsystem_FuelSystemErrorHandling.json",
+   "nodeEdgeCount": 86,
+   "elk": 24,
+   "elkjs": 56
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/flattened/ptolemy_probabilisticmodels_ChannelFaultModel.json",
+   "nodeEdgeCount": 40,
+   "elk": 11,
+   "elkjs": 20
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/flattened/ptolemy_probabilisticmodels_GMMConvergenceAnalysis.json",
+   "nodeEdgeCount": 90,
+   "elk": 29,
+   "elkjs": 39
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/flattened/ptolemy_test_auto_ChannelFaultModel.json",
+   "nodeEdgeCount": 41,
+   "elk": 11,
+   "elkjs": 21
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/flattened/ptolemy_test_auto_FuelSystemErrorHandling.json",
+   "nodeEdgeCount": 88,
+   "elk": 27,
+   "elkjs": 56
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/flattened/ptolemy_test_auto_GeneratorRegulatorFMUProtector.json",
+   "nodeEdgeCount": 36,
+   "elk": 16,
+   "elkjs": 22
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/flattened/ptolemy_test_auto_GeneratorRegulatorProtectorWithConstraintMonitor.json",
+   "nodeEdgeCount": 36,
+   "elk": 12,
+   "elkjs": 16
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/flattened/ptolemy_test_auto_GeneratorRegulatorProtectorWithProcessor.json",
+   "nodeEdgeCount": 36,
+   "elk": 12,
+   "elkjs": 17
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/flattened/ptolemy_test_auto_GeneratorRegulatorProtectorWithSpecification.json",
+   "nodeEdgeCount": 28,
+   "elk": 14,
+   "elkjs": 17
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/flattened/ptolemy_test_auto_GMMConvergenceAnalysis.json",
+   "nodeEdgeCount": 90,
+   "elk": 24,
+   "elkjs": 37
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/flattened/ptolemy_test_auto32_GeneratorRegulatorProtectorSimXFMU.json",
+   "nodeEdgeCount": 34,
+   "elk": 14,
+   "elkjs": 19
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/flattened/python_recordmanipulation_RecordManipulation.json",
+   "nodeEdgeCount": 24,
+   "elk": 7,
+   "elkjs": 12
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/flattened/qm_tcppackettxrx_TCPPacketTXRX.json",
+   "nodeEdgeCount": 33,
+   "elk": 9,
+   "elkjs": 15
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/flattened/rendezvous_trialmodule_TrialModule.json",
+   "nodeEdgeCount": 51,
+   "elk": 25,
+   "elkjs": 29
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/flattened/rendezvous_trialmodule_TrialModuleNonBacktrack.json",
+   "nodeEdgeCount": 51,
+   "elk": 21,
+   "elkjs": 28
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/flattened/scr_safetyinjection_SafetyInjection.json",
+   "nodeEdgeCount": 53,
+   "elk": 19,
+   "elkjs": 27
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/flattened/scr_trafficlight_TrafficLight.json",
+   "nodeEdgeCount": 75,
+   "elk": 20,
+   "elkjs": 25
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/flattened/sdf_adaptivemedian_AdaptiveMedian.json",
+   "nodeEdgeCount": 24,
+   "elk": 6,
+   "elkjs": 13
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/flattened/sdf_applyfft_ApplyFFT.json",
+   "nodeEdgeCount": 22,
+   "elk": 7,
+   "elkjs": 12
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/flattened/sdf_array_Array.json",
+   "nodeEdgeCount": 36,
+   "elk": 14,
+   "elkjs": 17
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/flattened/sdf_CameraDetectView_3win.json",
+   "nodeEdgeCount": 25,
+   "elk": 8,
+   "elkjs": 14
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/flattened/sdf_CameraDetectView.json",
+   "nodeEdgeCount": 75,
+   "elk": 20,
+   "elkjs": 26
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/flattened/sdf_coltrandom_ColtRandom.json",
+   "nodeEdgeCount": 70,
+   "elk": 16,
+   "elkjs": 21
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/flattened/sdf_convolutionalcoder_ConvolutionalCoder.json",
+   "nodeEdgeCount": 65,
+   "elk": 15,
+   "elkjs": 21
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/flattened/sdf_croom_CRoom.json",
+   "nodeEdgeCount": 31,
+   "elk": 9,
+   "elkjs": 15
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/flattened/sdf_dftsubset_DFTSubSet.json",
+   "nodeEdgeCount": 26,
+   "elk": 9,
+   "elkjs": 15
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/flattened/sdf_gravitation_Gravitation.json",
+   "nodeEdgeCount": 51,
+   "elk": 18,
+   "elkjs": 21
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/flattened/sdf_gravitation_GravitationWithCollisionDetection.json",
+   "nodeEdgeCount": 70,
+   "elk": 21,
+   "elkjs": 37
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/flattened/sdf_htvq_HTVQ2.json",
+   "nodeEdgeCount": 21,
+   "elk": 7,
+   "elkjs": 12
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/flattened/sdf_ImageDetectView_3.json",
+   "nodeEdgeCount": 29,
+   "elk": 9,
+   "elkjs": 14
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/flattened/sdf_imagereconstruction_ImageReconstruction.json",
+   "nodeEdgeCount": 40,
+   "elk": 10,
+   "elkjs": 17
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/flattened/sdf_irobothillclimbing_iRobotCreateCodeGenExperimental.json",
+   "nodeEdgeCount": 69,
+   "elk": 22,
+   "elkjs": 37
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/flattened/sdf_iterateoverarray_IterateOverArray.json",
+   "nodeEdgeCount": 25,
+   "elk": 10,
+   "elkjs": 16
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/flattened/sdf_matlabroom_MatlabRoom.json",
+   "nodeEdgeCount": 33,
+   "elk": 10,
+   "elkjs": 17
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/flattened/sdf_opencvreader_OpenCVReader.json",
+   "nodeEdgeCount": 26,
+   "elk": 9,
+   "elkjs": 14
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/flattened/sdf_orthogonalcom_OrthogonalCom.json",
+   "nodeEdgeCount": 28,
+   "elk": 13,
+   "elkjs": 19
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/flattened/sdf_recordmanipulation_RecordManipulation.json",
+   "nodeEdgeCount": 24,
+   "elk": 7,
+   "elkjs": 13
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/flattened/sdf_rijndaelencryption_RijndaelEncryption.json",
+   "nodeEdgeCount": 69,
+   "elk": 25,
+   "elkjs": 35
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/flattened/sdf_robot_robotWebService.json",
+   "nodeEdgeCount": 37,
+   "elk": 19,
+   "elkjs": 23
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/flattened/sdf_signature_Signature.json",
+   "nodeEdgeCount": 29,
+   "elk": 12,
+   "elkjs": 14
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/flattened/sdf_systemcommand_SystemCommand.json",
+   "nodeEdgeCount": 45,
+   "elk": 11,
+   "elkjs": 14
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/flattened/sdf_trellisdecoder_TrellisDecoder.json",
+   "nodeEdgeCount": 62,
+   "elk": 21,
+   "elkjs": 29
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/flattened/sdf_viterbidecoder_ViterbiDecoder.json",
+   "nodeEdgeCount": 56,
+   "elk": 13,
+   "elkjs": 21
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/flattened/security_signature_Signature.json",
+   "nodeEdgeCount": 29,
+   "elk": 11,
+   "elkjs": 18
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/flattened/space_dopcenter_DOPCenter.json",
+   "nodeEdgeCount": 49,
+   "elk": 16,
+   "elkjs": 22
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/flattened/sr_controlFlowDemo.json",
+   "nodeEdgeCount": 27,
+   "elk": 16,
+   "elkjs": 19
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/flattened/sr_errorhandling_ErrorHandlingSynthesized.json",
+   "nodeEdgeCount": 29,
+   "elk": 9,
+   "elkjs": 15
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/flattened/sr_guardedcount_GuardedCount.json",
+   "nodeEdgeCount": 30,
+   "elk": 17,
+   "elkjs": 19
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/flattened/sr_guardedcount_GuardedCountTimed.json",
+   "nodeEdgeCount": 25,
+   "elk": 16,
+   "elkjs": 18
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/flattened/sr_irobothillclimbing_iRobotCreateVerification.json",
+   "nodeEdgeCount": 105,
+   "elk": 23,
+   "elkjs": 47
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/flattened/sr_reflexgame_ReflexGame.json",
+   "nodeEdgeCount": 42,
+   "elk": 14,
+   "elkjs": 21
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/flattened/sr_tokenring_TokenRing_complicated.json",
+   "nodeEdgeCount": 57,
+   "elk": 22,
+   "elkjs": 34
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/flattened/sr_tokenring_TokenRing_incompatible.json",
+   "nodeEdgeCount": 57,
+   "elk": 26,
+   "elkjs": 32
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/flattened/sr_tokenring_TokenRing_original.json",
+   "nodeEdgeCount": 57,
+   "elk": 28,
+   "elkjs": 35
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/flattened/sr_tokenring_TokenRing_simplified.json",
+   "nodeEdgeCount": 57,
+   "elk": 23,
+   "elkjs": 33
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/flattened/sr_trafficlight_WirelessDeployment.json",
+   "nodeEdgeCount": 51,
+   "elk": 19,
+   "elkjs": 23
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/flattened/syntactic_AdaptiveBeamSyntactic.json",
+   "nodeEdgeCount": 34,
+   "elk": 15,
+   "elkjs": 19
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/flattened/syntactic_LoopSyntactic2.json",
+   "nodeEdgeCount": 31,
+   "elk": 17,
+   "elkjs": 22
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/flattened/syntactic_LoopSyntacticC.json",
+   "nodeEdgeCount": 34,
+   "elk": 13,
+   "elkjs": 17
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/flattened/tdl_activerearsteeringct_ActiveRearSteeringCT.json",
+   "nodeEdgeCount": 431,
+   "elk": 61,
+   "elkjs": 173
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/flattened/tdl_activerearsteeringde_ActiveRearSteeringDE.json",
+   "nodeEdgeCount": 222,
+   "elk": 35,
+   "elkjs": 94
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/flattened/tm_controllers_Controllers.json",
+   "nodeEdgeCount": 63,
+   "elk": 29,
+   "elkjs": 33
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/flattened/tm_fft_FFT.json",
+   "nodeEdgeCount": 24,
+   "elk": 7,
+   "elkjs": 12
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/flattened/type_router_Router.json",
+   "nodeEdgeCount": 25,
+   "elk": 7,
+   "elkjs": 13
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/flattened/unit_staticunits_StaticUnits.json",
+   "nodeEdgeCount": 26,
+   "elk": 18,
+   "elkjs": 19
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/flattened/unit_staticunits_StaticUnits2.json",
+   "nodeEdgeCount": 28,
+   "elk": 16,
+   "elkjs": 18
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/flattened/unit_units_Units.json",
+   "nodeEdgeCount": 25,
+   "elk": 8,
+   "elkjs": 15
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/flattened/verification_irobothillclimbing_iRobotCreateCodeGenExperimental.json",
+   "nodeEdgeCount": 69,
+   "elk": 30,
+   "elkjs": 36
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/flattened/verification_irobothillclimbing_iRobotCreateVerification.json",
+   "nodeEdgeCount": 105,
+   "elk": 29,
+   "elkjs": 49
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/flattened/verification_simpletrafficlight_SimpleTrafficLightDECTA.json",
+   "nodeEdgeCount": 24,
+   "elk": 8,
+   "elkjs": 14
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/flattened/vertx_pubsub_Publisher.json",
+   "nodeEdgeCount": 22,
+   "elk": 7,
+   "elkjs": 12
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/flattened/vertx_pubsub_Subscriber.json",
+   "nodeEdgeCount": 23,
+   "elk": 6,
+   "elkjs": 12
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/flattened/wireless_antennapattern_AntennaModel.json",
+   "nodeEdgeCount": 38,
+   "elk": 9,
+   "elkjs": 17
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/flattened/wireless_antennapattern_ReceiveAntennaPattern.json",
+   "nodeEdgeCount": 46,
+   "elk": 16,
+   "elkjs": 20
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/flattened/wireless_antennapattern_TransmitAntennaPattern.json",
+   "nodeEdgeCount": 46,
+   "elk": 17,
+   "elkjs": 21
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/flattened/wireless_collisions_Collisions.json",
+   "nodeEdgeCount": 74,
+   "elk": 32,
+   "elkjs": 33
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/flattened/wireless_collisions_CollisionsDeterministic.json",
+   "nodeEdgeCount": 62,
+   "elk": 25,
+   "elkjs": 28
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/flattened/wireless_evaderandpursuer_EvaderAndPursuer.json",
+   "nodeEdgeCount": 38,
+   "elk": 15,
+   "elkjs": 17
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/flattened/wireless_intersections_Intersections.json",
+   "nodeEdgeCount": 421,
+   "elk": 39,
+   "elkjs": 130
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/flattened/wireless_intersections_PedestrianLight.json",
+   "nodeEdgeCount": 22,
+   "elk": 7,
+   "elkjs": 12
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/flattened/wireless_network_MacReception.json",
+   "nodeEdgeCount": 24,
+   "elk": 8,
+   "elkjs": 14
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/flattened/wireless_network_SimpleModel.json",
+   "nodeEdgeCount": 69,
+   "elk": 22,
+   "elkjs": 25
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/flattened/wireless_personalareanetwork_Bluetooth2devices.json",
+   "nodeEdgeCount": 92,
+   "elk": 27,
+   "elkjs": 63
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/flattened/wireless_personalareanetwork_PersonalAreaNetwork.json",
+   "nodeEdgeCount": 31,
+   "elk": 11,
+   "elkjs": 15
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/flattened/wireless_personalareanetwork_PersonalAreaNetwork2.json",
+   "nodeEdgeCount": 103,
+   "elk": 22,
+   "elkjs": 36
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/flattened/wireless_smallworld_SmallWorldRouter_loss.json",
+   "nodeEdgeCount": 43,
+   "elk": 12,
+   "elkjs": 17
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/flattened/wireless_smallworld_SmallWorldRouter.json",
+   "nodeEdgeCount": 50,
+   "elk": 12,
+   "elkjs": 17
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/flattened/wireless_smartparking_LotSensor.json",
+   "nodeEdgeCount": 37,
+   "elk": 20,
+   "elkjs": 21
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/flattened/wireless_smartparking_SmartParking.json",
+   "nodeEdgeCount": 30,
+   "elk": 10,
+   "elkjs": 15
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/flattened/wireless_terrainmodel_TerrainModel2.json",
+   "nodeEdgeCount": 29,
+   "elk": 10,
+   "elkjs": 15
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/flattened/wireless_wirelesssounddetection_WirelessSoundDetectionContinuous.json",
+   "nodeEdgeCount": 25,
+   "elk": 8,
+   "elkjs": 14
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/flattened/wireless_zigbee_Zigbee.json",
+   "nodeEdgeCount": 82,
+   "elk": 17,
+   "elkjs": 26
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/flattened/xslt_momlfiletransformation_momlfilesfordemo_SampleMOMLFile1.json",
+   "nodeEdgeCount": 24,
+   "elk": 7,
+   "elkjs": 13
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/flattened/xslt_momlfiletransformation_momlfilesfordemo_SampleMOMLfile4.json",
+   "nodeEdgeCount": 33,
+   "elk": 9,
+   "elkjs": 16
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/flattened/xslt_momlfiletransformation_momlfilesfordemo_SampleMOMLFile6.json",
+   "nodeEdgeCount": 26,
+   "elk": 7,
+   "elkjs": 13
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/flattened/xslt_momlfiletransformation_MOMLFileTransformation.json",
+   "nodeEdgeCount": 41,
+   "elk": 9,
+   "elkjs": 14
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/flattened/xslt_momlfiletransformation_XMLFileTransformer2.json",
+   "nodeEdgeCount": 46,
+   "elk": 11,
+   "elkjs": 16
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/flattened/xslt_momlfiletransformation_XMLFileTransformer3.json",
+   "nodeEdgeCount": 45,
+   "elk": 11,
+   "elkjs": 14
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/flattened/xslt_momlfiletransformation_XMLFileTransformerUsingIterateOverArray.json",
+   "nodeEdgeCount": 27,
+   "elk": 7,
+   "elkjs": 14
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/flattened/xslt_momlfiletransformation_XMLFileTransformerUsingXMLInclusion.json",
+   "nodeEdgeCount": 27,
+   "elk": 8,
+   "elkjs": 15
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/flattened/xslt_xmlinclusiondemo_XMLInclusionDemo.json",
+   "nodeEdgeCount": 26,
+   "elk": 8,
+   "elkjs": 12
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/hierarchical/algebraic_heateropentank_HeaterOpenTank.json",
+   "nodeEdgeCount": 62,
+   "elk": 26,
+   "elkjs": 63
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/hierarchical/algebraic_heateropentank_HeaterOpenTankRefactored.json",
+   "nodeEdgeCount": 47,
+   "elk": 21,
+   "elkjs": 40
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/hierarchical/algebraic_rlc_RLC.json",
+   "nodeEdgeCount": 35,
+   "elk": 21,
+   "elkjs": 32
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/hierarchical/aspect_canbus_CanBusVariousCollisions.json",
+   "nodeEdgeCount": 28,
+   "elk": 10,
+   "elkjs": 19
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/hierarchical/aspect_cartrackingattackmodeling_CarTrackingAttackModeling.json",
+   "nodeEdgeCount": 132,
+   "elk": 29,
+   "elkjs": 77
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/hierarchical/aspect_cartrackingattackmodeling_CarTrackingAttackModelingAllAttacksInOneModel.json",
+   "nodeEdgeCount": 218,
+   "elk": 37,
+   "elkjs": 114
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/hierarchical/aspect_compositeqm_CheckExecutionTimeConstraints.json",
+   "nodeEdgeCount": 35,
+   "elk": 15,
+   "elkjs": 20
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/hierarchical/aspect_compositeqm_CompositeQM.json",
+   "nodeEdgeCount": 38,
+   "elk": 15,
+   "elkjs": 21
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/hierarchical/aspect_de_DE2.json",
+   "nodeEdgeCount": 96,
+   "elk": 23,
+   "elkjs": 41
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/hierarchical/backtrack_trialmodule_TrialModule.json",
+   "nodeEdgeCount": 55,
+   "elk": 17,
+   "elkjs": 28
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/hierarchical/backtrack_trialmodule_TrialModuleNonBacktrack.json",
+   "nodeEdgeCount": 55,
+   "elk": 19,
+   "elkjs": 29
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/hierarchical/ca_conway_Conway.json",
+   "nodeEdgeCount": 82,
+   "elk": 29,
+   "elkjs": 46
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/hierarchical/ci_router_ComplexRouter.json",
+   "nodeEdgeCount": 48,
+   "elk": 21,
+   "elkjs": 30
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/hierarchical/ci_router_dropqueuetest1.json",
+   "nodeEdgeCount": 40,
+   "elk": 17,
+   "elkjs": 23
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/hierarchical/ci_router_queuetest1.json",
+   "nodeEdgeCount": 38,
+   "elk": 16,
+   "elkjs": 22
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/hierarchical/ci_router_Router.json",
+   "nodeEdgeCount": 44,
+   "elk": 21,
+   "elkjs": 27
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/hierarchical/comm_convolutionalcoder_ConvolutionalCoder.json",
+   "nodeEdgeCount": 75,
+   "elk": 22,
+   "elkjs": 34
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/hierarchical/comm_scrambler_Scrambler.json",
+   "nodeEdgeCount": 24,
+   "elk": 8,
+   "elkjs": 16
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/hierarchical/comm_trellisdecoder_TrellisDecoder.json",
+   "nodeEdgeCount": 76,
+   "elk": 25,
+   "elkjs": 32
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/hierarchical/comm_viterbidecoder_ViterbiDecoder.json",
+   "nodeEdgeCount": 66,
+   "elk": 21,
+   "elkjs": 29
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/hierarchical/continuous_bouncingball_BouncingBall.json",
+   "nodeEdgeCount": 27,
+   "elk": 9,
+   "elkjs": 15
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/hierarchical/continuous_bus_2Bus.json",
+   "nodeEdgeCount": 33,
+   "elk": 13,
+   "elkjs": 21
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/hierarchical/continuous_cartpendulum_CartPendulum.json",
+   "nodeEdgeCount": 37,
+   "elk": 12,
+   "elkjs": 17
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/hierarchical/continuous_cartracking_CarTracking.json",
+   "nodeEdgeCount": 110,
+   "elk": 21,
+   "elkjs": 52
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/hierarchical/continuous_continuousinsidede_ContinuousInsideDE.json",
+   "nodeEdgeCount": 32,
+   "elk": 17,
+   "elkjs": 22
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/hierarchical/continuous_hierarchicalexecution_HierarchicalExecution.json",
+   "nodeEdgeCount": 29,
+   "elk": 14,
+   "elkjs": 21
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/hierarchical/continuous_pendulum3d_Pendulum3D.json",
+   "nodeEdgeCount": 43,
+   "elk": 13,
+   "elkjs": 24
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/hierarchical/continuous_sigmadelta_SigmaDelta.json",
+   "nodeEdgeCount": 47,
+   "elk": 22,
+   "elkjs": 25
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/hierarchical/continuous_squarewave_SquareWave.json",
+   "nodeEdgeCount": 27,
+   "elk": 13,
+   "elkjs": 18
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/hierarchical/continuous_starmac_Starmac.json",
+   "nodeEdgeCount": 765,
+   "elk": 68,
+   "elkjs": 319
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/hierarchical/continuous_staticunits_StaticUnits.json",
+   "nodeEdgeCount": 37,
+   "elk": 18,
+   "elkjs": 24
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/hierarchical/continuous_staticunits_StaticUnits2.json",
+   "nodeEdgeCount": 39,
+   "elk": 20,
+   "elkjs": 24
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/hierarchical/continuous_stickymasses_StickyMasses.json",
+   "nodeEdgeCount": 208,
+   "elk": 35,
+   "elkjs": 102
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/hierarchical/continuous_v2v_V2V.json",
+   "nodeEdgeCount": 39,
+   "elk": 16,
+   "elkjs": 26
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/hierarchical/ddf_eratosthenes_Eratosthenes.json",
+   "nodeEdgeCount": 31,
+   "elk": 21,
+   "elkjs": 24
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/hierarchical/ddf_factorial_Factorial.json",
+   "nodeEdgeCount": 27,
+   "elk": 12,
+   "elkjs": 17
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/hierarchical/ddf_ifthenelse_IfThenElseFSM.json",
+   "nodeEdgeCount": 28,
+   "elk": 10,
+   "elkjs": 17
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/hierarchical/ddf_LoopSyntacticC.json",
+   "nodeEdgeCount": 41,
+   "elk": 17,
+   "elkjs": 28
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/hierarchical/ddf_randomwalk_RandomWalk.json",
+   "nodeEdgeCount": 30,
+   "elk": 10,
+   "elkjs": 19
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/hierarchical/ddf_rijndaelencryption_RijndaelEncryption.json",
+   "nodeEdgeCount": 66,
+   "elk": 23,
+   "elkjs": 31
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/hierarchical/de_afdx_AFDX.json",
+   "nodeEdgeCount": 48,
+   "elk": 21,
+   "elkjs": 26
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/hierarchical/de_afdx_AFDXMulticastSimple.json",
+   "nodeEdgeCount": 31,
+   "elk": 11,
+   "elkjs": 20
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/hierarchical/de_bus_2Bus.json",
+   "nodeEdgeCount": 33,
+   "elk": 14,
+   "elkjs": 20
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/hierarchical/de_canbus_CanBusVariousCollisions.json",
+   "nodeEdgeCount": 28,
+   "elk": 9,
+   "elkjs": 17
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/hierarchical/de_clock_Clock.json",
+   "nodeEdgeCount": 34,
+   "elk": 10,
+   "elkjs": 17
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/hierarchical/de_clock_ClockTest.json",
+   "nodeEdgeCount": 53,
+   "elk": 15,
+   "elkjs": 23
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/hierarchical/de_clockdrift_ClockDrift.json",
+   "nodeEdgeCount": 26,
+   "elk": 12,
+   "elkjs": 19
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/hierarchical/de_clockdrift_ClockDriftHierarchy.json",
+   "nodeEdgeCount": 25,
+   "elk": 9,
+   "elkjs": 18
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/hierarchical/de_clockdrift_ClockDrifts.json",
+   "nodeEdgeCount": 42,
+   "elk": 22,
+   "elkjs": 26
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/hierarchical/de_clockdrift_SetClockDriftViaParameterOrPortParameter.json",
+   "nodeEdgeCount": 30,
+   "elk": 11,
+   "elkjs": 23
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/hierarchical/de_CommunicationAnomalyDetectionAOM.json",
+   "nodeEdgeCount": 106,
+   "elk": 22,
+   "elkjs": 57
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/hierarchical/de_CommunicationAnomalyDetectionCQM.json",
+   "nodeEdgeCount": 98,
+   "elk": 21,
+   "elkjs": 51
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/hierarchical/de_compositeqm_CheckExecutionTimeConstraints.json",
+   "nodeEdgeCount": 35,
+   "elk": 14,
+   "elkjs": 19
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/hierarchical/de_compositeqm_CompositeQM.json",
+   "nodeEdgeCount": 38,
+   "elk": 15,
+   "elkjs": 21
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/hierarchical/de_de_DE2.json",
+   "nodeEdgeCount": 96,
+   "elk": 23,
+   "elkjs": 38
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/hierarchical/de_inspection_Inspection.json",
+   "nodeEdgeCount": 50,
+   "elk": 19,
+   "elkjs": 25
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/hierarchical/de_linefault_LineFault.json",
+   "nodeEdgeCount": 249,
+   "elk": 48,
+   "elkjs": 178
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/hierarchical/de_printingpress_PrintingPress-Validation.json",
+   "nodeEdgeCount": 935,
+   "elk": 96,
+   "elkjs": 505
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/hierarchical/de_ptidesmergetomultiframe_PtidesMergeToMultiFrame.json",
+   "nodeEdgeCount": 25,
+   "elk": 10,
+   "elkjs": 18
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/hierarchical/de_realtimecomposite_RealTimeCompositeTones.json",
+   "nodeEdgeCount": 28,
+   "elk": 12,
+   "elkjs": 19
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/hierarchical/de_switch_CrossbarSwitch.json",
+   "nodeEdgeCount": 33,
+   "elk": 14,
+   "elkjs": 24
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/hierarchical/de_switch_Switch.json",
+   "nodeEdgeCount": 45,
+   "elk": 19,
+   "elkjs": 28
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/hierarchical/de_tcppackettxrx_TCPPacketTXRX.json",
+   "nodeEdgeCount": 46,
+   "elk": 16,
+   "elkjs": 29
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/hierarchical/de_timingparadox_TimingParadox.json",
+   "nodeEdgeCount": 106,
+   "elk": 25,
+   "elkjs": 62
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/hierarchical/de_trilateration_Trilateration.json",
+   "nodeEdgeCount": 1288,
+   "elk": 106,
+   "elkjs": 718
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/hierarchical/de_tte_TTE.json",
+   "nodeEdgeCount": 29,
+   "elk": 13,
+   "elkjs": 20
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/hierarchical/dt_pickstates_pickstates.json",
+   "nodeEdgeCount": 433,
+   "elk": 42,
+   "elkjs": 137
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/hierarchical/g4ltl_numerical_Numerical.json",
+   "nodeEdgeCount": 62,
+   "elk": 19,
+   "elkjs": 28
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/hierarchical/gr_inversekinematics_InverseKinematics.json",
+   "nodeEdgeCount": 847,
+   "elk": 101,
+   "elkjs": 469
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/hierarchical/gr_microwave_microwave.json",
+   "nodeEdgeCount": 287,
+   "elk": 36,
+   "elkjs": 96
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/hierarchical/gr_pendulum_Pendulum.json",
+   "nodeEdgeCount": 48,
+   "elk": 13,
+   "elkjs": 21
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/hierarchical/gr_pong_Pong.json",
+   "nodeEdgeCount": 91,
+   "elk": 26,
+   "elkjs": 32
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/hierarchical/gr_robotarm_RobotArm.json",
+   "nodeEdgeCount": 321,
+   "elk": 35,
+   "elkjs": 92
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/hierarchical/gr_stickymasses_StickyMasses.json",
+   "nodeEdgeCount": 191,
+   "elk": 37,
+   "elkjs": 95
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/hierarchical/gt_bouncingballx2_BouncingBallX2.json",
+   "nodeEdgeCount": 37,
+   "elk": 11,
+   "elkjs": 18
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/hierarchical/gt_diningphilosophers_DiningPhilosophers.json",
+   "nodeEdgeCount": 89,
+   "elk": 29,
+   "elkjs": 44
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/hierarchical/gt_mapreduce_MapReduce.json",
+   "nodeEdgeCount": 55,
+   "elk": 20,
+   "elkjs": 26
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/hierarchical/gt_modelgeneration_ModelGeneration.json",
+   "nodeEdgeCount": 36,
+   "elk": 13,
+   "elkjs": 23
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/hierarchical/gt_modelgeneration_ModelGenerationDDF.json",
+   "nodeEdgeCount": 41,
+   "elk": 20,
+   "elkjs": 24
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/hierarchical/gt_sinewaveoptimization_SinewaveOptimization.json",
+   "nodeEdgeCount": 24,
+   "elk": 8,
+   "elkjs": 14
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/hierarchical/hdf_adaptivecoding_AdaptiveCoding.json",
+   "nodeEdgeCount": 34,
+   "elk": 14,
+   "elkjs": 18
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/hierarchical/hoc_case_Case.json",
+   "nodeEdgeCount": 30,
+   "elk": 12,
+   "elkjs": 17
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/hierarchical/hoc_dftsubset_DFTSubSet.json",
+   "nodeEdgeCount": 29,
+   "elk": 11,
+   "elkjs": 17
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/hierarchical/hoc_iterateoverarray_IterateOverArray.json",
+   "nodeEdgeCount": 40,
+   "elk": 15,
+   "elkjs": 19
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/hierarchical/hoc_threadedcomposite_MulticoreExecution.json",
+   "nodeEdgeCount": 20,
+   "elk": 9,
+   "elkjs": 16
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/hierarchical/lib_life_Life.json",
+   "nodeEdgeCount": 161,
+   "elk": 32,
+   "elkjs": 72
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/hierarchical/lib_life_LifeCGAVR.json",
+   "nodeEdgeCount": 86,
+   "elk": 31,
+   "elkjs": 41
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/hierarchical/lib_life_LifeNoCG.json",
+   "nodeEdgeCount": 42,
+   "elk": 18,
+   "elkjs": 21
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/hierarchical/modal_abp_ABP.json",
+   "nodeEdgeCount": 52,
+   "elk": 22,
+   "elkjs": 28
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/hierarchical/modal_blending_Blending.json",
+   "nodeEdgeCount": 49,
+   "elk": 22,
+   "elkjs": 27
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/hierarchical/modal_case_Case.json",
+   "nodeEdgeCount": 30,
+   "elk": 12,
+   "elkjs": 22
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/hierarchical/pn_blindcommunication_BlindCommunication.json",
+   "nodeEdgeCount": 118,
+   "elk": 30,
+   "elkjs": 46
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/hierarchical/pn_brockackerman_BrockAckerman.json",
+   "nodeEdgeCount": 42,
+   "elk": 12,
+   "elkjs": 26
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/hierarchical/pn_countermachine_CounterMachine.json",
+   "nodeEdgeCount": 386,
+   "elk": 59,
+   "elkjs": 301
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/hierarchical/pn_countermachine_CounterMachinePrelim.json",
+   "nodeEdgeCount": 154,
+   "elk": 26,
+   "elkjs": 109
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/hierarchical/pn_countermachine_CounterMachineWithException.json",
+   "nodeEdgeCount": 427,
+   "elk": 85,
+   "elkjs": 299
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/hierarchical/pn_stack_Stack.json",
+   "nodeEdgeCount": 83,
+   "elk": 19,
+   "elkjs": 64
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/hierarchical/psdf_blindcommunication_BlindCommunication.json",
+   "nodeEdgeCount": 118,
+   "elk": 28,
+   "elkjs": 48
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/hierarchical/psdf_speech_Speech.json",
+   "nodeEdgeCount": 31,
+   "elk": 17,
+   "elkjs": 18
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/hierarchical/ptalon_smallworld_SmallWorldMultiInstanceComposite.json",
+   "nodeEdgeCount": 41,
+   "elk": 11,
+   "elkjs": 23
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/hierarchical/ptango_chat_ChatClient.json",
+   "nodeEdgeCount": 32,
+   "elk": 12,
+   "elkjs": 17
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/hierarchical/ptango_chat_ChatServer.json",
+   "nodeEdgeCount": 64,
+   "elk": 24,
+   "elkjs": 44
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/hierarchical/ptango_eplus70actuator_EPlus70Actuator.json",
+   "nodeEdgeCount": 187,
+   "elk": 26,
+   "elkjs": 75
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/hierarchical/ptango_guidance_Guidance.json",
+   "nodeEdgeCount": 172,
+   "elk": 28,
+   "elkjs": 112
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/hierarchical/ptango_optimizationadvisor_OptimizationAdvisor.json",
+   "nodeEdgeCount": 273,
+   "elk": 34,
+   "elkjs": 127
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/hierarchical/ptango_smartroom_SmartRoom.json",
+   "nodeEdgeCount": 85,
+   "elk": 17,
+   "elkjs": 31
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/hierarchical/ptango_temperaturesimulation_EPlusSimulation.json",
+   "nodeEdgeCount": 1052,
+   "elk": 104,
+   "elkjs": 569
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/hierarchical/ptango_ucbpower_DataReadingExample.json",
+   "nodeEdgeCount": 73,
+   "elk": 24,
+   "elkjs": 33
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/hierarchical/ptango_ucbpower_UCBPowerForServer.json",
+   "nodeEdgeCount": 163,
+   "elk": 26,
+   "elkjs": 93
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/hierarchical/ptango_ucbpowerptera_UCBPowerPtera.json",
+   "nodeEdgeCount": 61,
+   "elk": 17,
+   "elkjs": 21
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/hierarchical/ptera_adaptivecarwash_AdaptiveCarWash.json",
+   "nodeEdgeCount": 44,
+   "elk": 12,
+   "elkjs": 20
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/hierarchical/ptera_adaptivecarwash_AdaptiveCarWashFSM.json",
+   "nodeEdgeCount": 35,
+   "elk": 11,
+   "elkjs": 21
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/hierarchical/ptera_carwash_CarWashDE.json",
+   "nodeEdgeCount": 28,
+   "elk": 8,
+   "elkjs": 17
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/hierarchical/ptera_simultaneouscarwash_SimultaneousCarWash.json",
+   "nodeEdgeCount": 43,
+   "elk": 13,
+   "elkjs": 21
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/hierarchical/ptera_trafficlight_TrafficLight.json",
+   "nodeEdgeCount": 85,
+   "elk": 29,
+   "elkjs": 42
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/hierarchical/pthales_dynamic_ThalesDynamicModalModelPN.json",
+   "nodeEdgeCount": 33,
+   "elk": 11,
+   "elkjs": 17
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/hierarchical/pthales_fft_FFT.json",
+   "nodeEdgeCount": 55,
+   "elk": 15,
+   "elkjs": 24
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/hierarchical/pthales_illustrative_Illustrative.json",
+   "nodeEdgeCount": 22,
+   "elk": 8,
+   "elkjs": 16
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/hierarchical/ptides_actuatorpattern_ActuatorPattern.json",
+   "nodeEdgeCount": 26,
+   "elk": 10,
+   "elkjs": 15
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/hierarchical/ptides_actuatorpattern_ActuatorPattern1.json",
+   "nodeEdgeCount": 36,
+   "elk": 11,
+   "elkjs": 16
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/hierarchical/ptides_actuatorpattern_ActuatorPattern2.json",
+   "nodeEdgeCount": 46,
+   "elk": 13,
+   "elkjs": 23
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/hierarchical/ptides_actuatorpattern_ActuatorPatternComplex1.json",
+   "nodeEdgeCount": 46,
+   "elk": 20,
+   "elkjs": 31
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/hierarchical/ptides_controller_Controller.json",
+   "nodeEdgeCount": 237,
+   "elk": 35,
+   "elkjs": 118
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/hierarchical/ptides_cosimulation_CoSimulation.json",
+   "nodeEdgeCount": 209,
+   "elk": 30,
+   "elkjs": 109
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/hierarchical/ptides_distributedpowerplant_DistributedPowerPlant.json",
+   "nodeEdgeCount": 92,
+   "elk": 20,
+   "elkjs": 55
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/hierarchical/ptides_errorhandling_ErrorHandling.json",
+   "nodeEdgeCount": 56,
+   "elk": 20,
+   "elkjs": 30
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/hierarchical/ptides_mixedsimulator_MixedSimulator.json",
+   "nodeEdgeCount": 31,
+   "elk": 11,
+   "elkjs": 18
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/hierarchical/ptides_multiplatformtdma_MultiPlatformTDMA.json",
+   "nodeEdgeCount": 125,
+   "elk": 23,
+   "elkjs": 73
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/hierarchical/ptides_multiplecores_MultipleCores.json",
+   "nodeEdgeCount": 28,
+   "elk": 11,
+   "elkjs": 16
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/hierarchical/ptides_powermanagementunitsamplingwithoutcurrentlocaltime_PowerManagementUnitSamplingWithCurrentLocalTime.json",
+   "nodeEdgeCount": 66,
+   "elk": 22,
+   "elkjs": 37
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/hierarchical/ptides_powermanagementunitsamplingwithoutcurrentlocaltime_PowerManagementUnitSamplingWithoutCurrentLocalTime.json",
+   "nodeEdgeCount": 62,
+   "elk": 17,
+   "elkjs": 31
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/hierarchical/ptides_powerplant_PowerPlant.json",
+   "nodeEdgeCount": 87,
+   "elk": 25,
+   "elkjs": 54
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/hierarchical/ptides_printingpress_PrintingPress_AnimationsOnly.json",
+   "nodeEdgeCount": 299,
+   "elk": 29,
+   "elkjs": 119
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/hierarchical/ptides_printingpress_PrintingPress.json",
+   "nodeEdgeCount": 947,
+   "elk": 85,
+   "elkjs": 520
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/hierarchical/ptides_ptidessynchrophasor_PtidesSynchrophasor.json",
+   "nodeEdgeCount": 94,
+   "elk": 25,
+   "elkjs": 42
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/hierarchical/ptides_srinptides_SRinPtides.json",
+   "nodeEdgeCount": 114,
+   "elk": 27,
+   "elkjs": 56
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/hierarchical/ptides_srinptides_SRinPtidesLoop.json",
+   "nodeEdgeCount": 50,
+   "elk": 18,
+   "elkjs": 24
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/hierarchical/ptides_trex_TREX.json",
+   "nodeEdgeCount": 393,
+   "elk": 58,
+   "elkjs": 222
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/hierarchical/ptides_trex_TREXNetworkV1.json",
+   "nodeEdgeCount": 410,
+   "elk": 63,
+   "elkjs": 228
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/hierarchical/ptides_trex_TREXNoNetworkAllDigital.json",
+   "nodeEdgeCount": 399,
+   "elk": 52,
+   "elkjs": 224
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/hierarchical/ptides_trex_TREXPtidesMulticoreDirector.json",
+   "nodeEdgeCount": 69,
+   "elk": 18,
+   "elkjs": 43
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/hierarchical/ptides_tte_TTE.json",
+   "nodeEdgeCount": 294,
+   "elk": 38,
+   "elkjs": 140
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/hierarchical/ptides_vertxdemo_Subscriber.json",
+   "nodeEdgeCount": 29,
+   "elk": 9,
+   "elkjs": 17
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/hierarchical/ptolemy_brewery_Brewery.json",
+   "nodeEdgeCount": 66,
+   "elk": 21,
+   "elkjs": 28
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/hierarchical/ptolemy_brewery_BreweryWireless.json",
+   "nodeEdgeCount": 58,
+   "elk": 19,
+   "elkjs": 26
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/hierarchical/ptolemy_electricpowersystem_generatorregulatorprotectormetro_GeneratorRegulatorProtectorWithMapping.json",
+   "nodeEdgeCount": 30,
+   "elk": 14,
+   "elkjs": 20
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/hierarchical/ptolemy_electricpowersystem_GeneratorRegulatorProtectorPtides.json",
+   "nodeEdgeCount": 66,
+   "elk": 21,
+   "elkjs": 32
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/hierarchical/ptolemy_electricpowersystem_GeneratorRegulatorProtectorSimXFMU.json",
+   "nodeEdgeCount": 36,
+   "elk": 19,
+   "elkjs": 21
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/hierarchical/ptolemy_electricpowersystem_GeneratorRegulatorProtectorSimXRhapsodyFMU.json",
+   "nodeEdgeCount": 36,
+   "elk": 12,
+   "elkjs": 20
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/hierarchical/ptolemy_electricpowersystem_GeneratorRegulatorProtectorSimXRhapsodyFMUMetronomy.json",
+   "nodeEdgeCount": 66,
+   "elk": 22,
+   "elkjs": 35
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/hierarchical/ptolemy_electricpowersystem_GeneratorRegulatorProtectorWithConstraintMonitor.json",
+   "nodeEdgeCount": 47,
+   "elk": 12,
+   "elkjs": 23
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/hierarchical/ptolemy_electricpowersystem_GeneratorRegulatorProtectorWithLogging.json",
+   "nodeEdgeCount": 44,
+   "elk": 13,
+   "elkjs": 21
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/hierarchical/ptolemy_electricpowersystem_GeneratorRegulatorProtectorWithProcessor.json",
+   "nodeEdgeCount": 47,
+   "elk": 13,
+   "elkjs": 21
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/hierarchical/ptolemy_electricpowersystem_GeneratorRegulatorProtectorWithSpecificationAsAspect.json",
+   "nodeEdgeCount": 43,
+   "elk": 18,
+   "elkjs": 22
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/hierarchical/ptolemy_execdemos_demos_BouncingBall.json",
+   "nodeEdgeCount": 27,
+   "elk": 8,
+   "elkjs": 14
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/hierarchical/ptolemy_execdemos_demos_Collisions.json",
+   "nodeEdgeCount": 91,
+   "elk": 30,
+   "elkjs": 42
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/hierarchical/ptolemy_execdemos_demos_Controllers.json",
+   "nodeEdgeCount": 79,
+   "elk": 27,
+   "elkjs": 41
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/hierarchical/ptolemy_execdemos_demos_EvaderAndPursuer.json",
+   "nodeEdgeCount": 45,
+   "elk": 18,
+   "elkjs": 21
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/hierarchical/ptolemy_execdemos_demos_GuardedCount.json",
+   "nodeEdgeCount": 41,
+   "elk": 16,
+   "elkjs": 27
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/hierarchical/ptolemy_execdemos_demos_hyvisualdemos_BouncingBall.json",
+   "nodeEdgeCount": 26,
+   "elk": 8,
+   "elkjs": 14
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/hierarchical/ptolemy_execdemos_demos_hyvisualdemos_Pendulum3D.json",
+   "nodeEdgeCount": 43,
+   "elk": 11,
+   "elkjs": 18
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/hierarchical/ptolemy_execdemos_demos_hyvisualdemos_SigmaDelta.json",
+   "nodeEdgeCount": 47,
+   "elk": 18,
+   "elkjs": 23
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/hierarchical/ptolemy_execdemos_demos_Inspection.json",
+   "nodeEdgeCount": 50,
+   "elk": 16,
+   "elkjs": 23
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/hierarchical/ptolemy_execdemos_demos_SigmaDelta.json",
+   "nodeEdgeCount": 47,
+   "elk": 17,
+   "elkjs": 26
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/hierarchical/ptolemy_execdemos_demos_TerrainModel.json",
+   "nodeEdgeCount": 24,
+   "elk": 9,
+   "elkjs": 15
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/hierarchical/ptolemy_execdemos_demos_TimingParadox.json",
+   "nodeEdgeCount": 106,
+   "elk": 20,
+   "elkjs": 60
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/hierarchical/ptolemy_execdemos_demos_TransmitAntennaPattern.json",
+   "nodeEdgeCount": 53,
+   "elk": 19,
+   "elkjs": 24
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/hierarchical/ptolemy_execdemos_demos_ViterbiDecoder.json",
+   "nodeEdgeCount": 66,
+   "elk": 17,
+   "elkjs": 25
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/hierarchical/ptolemy_execdemos_demos_WirelessSoundDetection.json",
+   "nodeEdgeCount": 26,
+   "elk": 9,
+   "elkjs": 16
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/hierarchical/ptolemy_faultmodels_CommunicationAnomalyDetectionCQM.json",
+   "nodeEdgeCount": 107,
+   "elk": 24,
+   "elkjs": 57
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/hierarchical/ptolemy_faultmodels_GMMConvergenceAnalysis.json",
+   "nodeEdgeCount": 117,
+   "elk": 27,
+   "elkjs": 55
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/hierarchical/ptolemy_fuelsystem_FuelSystemErrorHandling.json",
+   "nodeEdgeCount": 151,
+   "elk": 34,
+   "elkjs": 112
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/hierarchical/ptolemy_probabilisticmodels_ChannelFaultModel.json",
+   "nodeEdgeCount": 42,
+   "elk": 11,
+   "elkjs": 21
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/hierarchical/ptolemy_probabilisticmodels_GMMConvergenceAnalysis.json",
+   "nodeEdgeCount": 119,
+   "elk": 24,
+   "elkjs": 52
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/hierarchical/ptolemy_robot_RandomWalkIntruder.json",
+   "nodeEdgeCount": 25,
+   "elk": 10,
+   "elkjs": 16
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/hierarchical/ptolemy_test_auto_ChannelFaultModel.json",
+   "nodeEdgeCount": 43,
+   "elk": 11,
+   "elkjs": 21
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/hierarchical/ptolemy_test_auto_FuelSystemErrorHandling.json",
+   "nodeEdgeCount": 153,
+   "elk": 33,
+   "elkjs": 111
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/hierarchical/ptolemy_test_auto_GeneratorRegulatorProtectorWithConstraintMonitor.json",
+   "nodeEdgeCount": 49,
+   "elk": 14,
+   "elkjs": 20
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/hierarchical/ptolemy_test_auto_GeneratorRegulatorProtectorWithProcessor.json",
+   "nodeEdgeCount": 49,
+   "elk": 15,
+   "elkjs": 19
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/hierarchical/ptolemy_test_auto_GMMConvergenceAnalysis.json",
+   "nodeEdgeCount": 123,
+   "elk": 21,
+   "elkjs": 55
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/hierarchical/ptolemy_test_auto32_GeneratorRegulatorProtectorSimXFMU.json",
+   "nodeEdgeCount": 40,
+   "elk": 16,
+   "elkjs": 25
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/hierarchical/qm_tcppackettxrx_TCPPacketTXRX.json",
+   "nodeEdgeCount": 46,
+   "elk": 14,
+   "elkjs": 22
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/hierarchical/rendezvous_trialmodule_TrialModule.json",
+   "nodeEdgeCount": 55,
+   "elk": 17,
+   "elkjs": 27
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/hierarchical/rendezvous_trialmodule_TrialModuleNonBacktrack.json",
+   "nodeEdgeCount": 55,
+   "elk": 18,
+   "elkjs": 26
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/hierarchical/scr_safetyinjection_SafetyInjection.json",
+   "nodeEdgeCount": 60,
+   "elk": 26,
+   "elkjs": 31
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/hierarchical/scr_trafficlight_TrafficLight.json",
+   "nodeEdgeCount": 82,
+   "elk": 15,
+   "elkjs": 42
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/hierarchical/sdf_CameraDetectView_3win.json",
+   "nodeEdgeCount": 34,
+   "elk": 13,
+   "elkjs": 17
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/hierarchical/sdf_CameraDetectView.json",
+   "nodeEdgeCount": 98,
+   "elk": 23,
+   "elkjs": 41
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/hierarchical/sdf_case_Case.json",
+   "nodeEdgeCount": 30,
+   "elk": 11,
+   "elkjs": 20
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/hierarchical/sdf_convolutionalcoder_ConvolutionalCoder.json",
+   "nodeEdgeCount": 75,
+   "elk": 21,
+   "elkjs": 30
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/hierarchical/sdf_croom_CRoom.json",
+   "nodeEdgeCount": 34,
+   "elk": 14,
+   "elkjs": 16
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/hierarchical/sdf_dftsubset_DFTSubSet.json",
+   "nodeEdgeCount": 29,
+   "elk": 13,
+   "elkjs": 18
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/hierarchical/sdf_gravitation_Gravitation.json",
+   "nodeEdgeCount": 59,
+   "elk": 22,
+   "elkjs": 27
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/hierarchical/sdf_gravitation_GravitationWithCollisionDetection.json",
+   "nodeEdgeCount": 85,
+   "elk": 26,
+   "elkjs": 48
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/hierarchical/sdf_htvq_HTVQ2.json",
+   "nodeEdgeCount": 25,
+   "elk": 9,
+   "elkjs": 16
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/hierarchical/sdf_htvq_HTVQ4.json",
+   "nodeEdgeCount": 24,
+   "elk": 8,
+   "elkjs": 14
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/hierarchical/sdf_ImageDetectView_3.json",
+   "nodeEdgeCount": 40,
+   "elk": 13,
+   "elkjs": 22
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/hierarchical/sdf_irobothillclimbing_iRobotCreateCodeGenExperimental.json",
+   "nodeEdgeCount": 83,
+   "elk": 24,
+   "elkjs": 35
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/hierarchical/sdf_iterateoverarray_IterateOverArray.json",
+   "nodeEdgeCount": 40,
+   "elk": 13,
+   "elkjs": 19
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/hierarchical/sdf_matlabroom_MatlabRoom.json",
+   "nodeEdgeCount": 36,
+   "elk": 13,
+   "elkjs": 18
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/hierarchical/sdf_opencvreader_OpenCVReader.json",
+   "nodeEdgeCount": 40,
+   "elk": 18,
+   "elkjs": 21
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/hierarchical/sdf_rijndaelencryption_RijndaelEncryption.json",
+   "nodeEdgeCount": 80,
+   "elk": 31,
+   "elkjs": 40
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/hierarchical/sdf_robot_robotWebService.json",
+   "nodeEdgeCount": 45,
+   "elk": 17,
+   "elkjs": 26
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/hierarchical/sdf_scrambler_Scrambler.json",
+   "nodeEdgeCount": 24,
+   "elk": 11,
+   "elkjs": 16
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/hierarchical/sdf_signature_Signature.json",
+   "nodeEdgeCount": 32,
+   "elk": 11,
+   "elkjs": 19
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/hierarchical/sdf_speech_Speech.json",
+   "nodeEdgeCount": 31,
+   "elk": 11,
+   "elkjs": 17
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/hierarchical/sdf_systemcommand_SystemCommand.json",
+   "nodeEdgeCount": 51,
+   "elk": 13,
+   "elkjs": 17
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/hierarchical/sdf_trellisdecoder_TrellisDecoder.json",
+   "nodeEdgeCount": 76,
+   "elk": 19,
+   "elkjs": 30
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/hierarchical/sdf_viterbidecoder_ViterbiDecoder.json",
+   "nodeEdgeCount": 66,
+   "elk": 19,
+   "elkjs": 26
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/hierarchical/security_signature_Signature.json",
+   "nodeEdgeCount": 32,
+   "elk": 10,
+   "elkjs": 16
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/hierarchical/sr_controlFlowDemo.json",
+   "nodeEdgeCount": 32,
+   "elk": 17,
+   "elkjs": 20
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/hierarchical/sr_guardedcount_GuardedCount.json",
+   "nodeEdgeCount": 37,
+   "elk": 18,
+   "elkjs": 23
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/hierarchical/sr_guardedcount_GuardedCountTimed.json",
+   "nodeEdgeCount": 30,
+   "elk": 15,
+   "elkjs": 23
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/hierarchical/sr_irobothillclimbing_iRobotCreateVerification.json",
+   "nodeEdgeCount": 121,
+   "elk": 27,
+   "elkjs": 64
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/hierarchical/sr_reflexgame_ReflexGame.json",
+   "nodeEdgeCount": 58,
+   "elk": 19,
+   "elkjs": 25
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/hierarchical/sr_threadedcomposite_MulticoreExecution.json",
+   "nodeEdgeCount": 20,
+   "elk": 8,
+   "elkjs": 15
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/hierarchical/sr_tokenring_TokenRing_complicated.json",
+   "nodeEdgeCount": 78,
+   "elk": 25,
+   "elkjs": 35
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/hierarchical/sr_trafficlight_WirelessDeployment.json",
+   "nodeEdgeCount": 62,
+   "elk": 21,
+   "elkjs": 25
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/hierarchical/syntactic_LoopSyntacticC.json",
+   "nodeEdgeCount": 41,
+   "elk": 19,
+   "elkjs": 27
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/hierarchical/tdl_activerearsteeringct_ActiveRearSteeringCT.json",
+   "nodeEdgeCount": 473,
+   "elk": 54,
+   "elkjs": 192
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/hierarchical/tdl_activerearsteeringde_ActiveRearSteeringDE.json",
+   "nodeEdgeCount": 281,
+   "elk": 48,
+   "elkjs": 127
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/hierarchical/tm_controllers_Controllers.json",
+   "nodeEdgeCount": 79,
+   "elk": 28,
+   "elkjs": 40
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/hierarchical/tm_fft_FFT.json",
+   "nodeEdgeCount": 29,
+   "elk": 10,
+   "elkjs": 19
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/hierarchical/tm_mergedevents_MergedEvents.json",
+   "nodeEdgeCount": 29,
+   "elk": 12,
+   "elkjs": 19
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/hierarchical/unit_staticunits_StaticUnits.json",
+   "nodeEdgeCount": 37,
+   "elk": 21,
+   "elkjs": 26
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/hierarchical/unit_staticunits_StaticUnits2.json",
+   "nodeEdgeCount": 39,
+   "elk": 19,
+   "elkjs": 25
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/hierarchical/verification_irobothillclimbing_iRobotCreateCodeGenExperimental.json",
+   "nodeEdgeCount": 83,
+   "elk": 29,
+   "elkjs": 35
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/hierarchical/verification_irobothillclimbing_iRobotCreateVerification.json",
+   "nodeEdgeCount": 121,
+   "elk": 21,
+   "elkjs": 62
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/hierarchical/wireless_antennapattern_AntennaModel.json",
+   "nodeEdgeCount": 46,
+   "elk": 13,
+   "elkjs": 20
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/hierarchical/wireless_antennapattern_ReceiveAntennaPattern.json",
+   "nodeEdgeCount": 55,
+   "elk": 25,
+   "elkjs": 26
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/hierarchical/wireless_antennapattern_TransmitAntennaPattern.json",
+   "nodeEdgeCount": 53,
+   "elk": 19,
+   "elkjs": 25
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/hierarchical/wireless_circularrange_CircularRange.json",
+   "nodeEdgeCount": 21,
+   "elk": 8,
+   "elkjs": 15
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/hierarchical/wireless_collisions_Collisions.json",
+   "nodeEdgeCount": 91,
+   "elk": 28,
+   "elkjs": 42
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/hierarchical/wireless_collisions_CollisionsDeterministic.json",
+   "nodeEdgeCount": 79,
+   "elk": 27,
+   "elkjs": 37
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/hierarchical/wireless_evaderandpursuer_EvaderAndPursuer.json",
+   "nodeEdgeCount": 45,
+   "elk": 17,
+   "elkjs": 21
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/hierarchical/wireless_intersections_Intersections.json",
+   "nodeEdgeCount": 608,
+   "elk": 56,
+   "elkjs": 205
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/hierarchical/wireless_linkvisualizer_LinkVisualizer.json",
+   "nodeEdgeCount": 24,
+   "elk": 11,
+   "elkjs": 16
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/hierarchical/wireless_matlabwirelesssounddetection_MatlabWirelessSoundDetection.json",
+   "nodeEdgeCount": 26,
+   "elk": 9,
+   "elkjs": 17
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/hierarchical/wireless_network_SimpleModel.json",
+   "nodeEdgeCount": 109,
+   "elk": 26,
+   "elkjs": 62
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/hierarchical/wireless_personalareanetwork_Bluetooth2devices.json",
+   "nodeEdgeCount": 98,
+   "elk": 25,
+   "elkjs": 72
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/hierarchical/wireless_personalareanetwork_BluetoothNodes.json",
+   "nodeEdgeCount": 23,
+   "elk": 8,
+   "elkjs": 14
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/hierarchical/wireless_personalareanetwork_PersonalAreaNetwork.json",
+   "nodeEdgeCount": 36,
+   "elk": 11,
+   "elkjs": 17
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/hierarchical/wireless_personalareanetwork_PersonalAreaNetwork2.json",
+   "nodeEdgeCount": 118,
+   "elk": 30,
+   "elkjs": 44
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/hierarchical/wireless_powervariability_PowerVariability.json",
+   "nodeEdgeCount": 24,
+   "elk": 9,
+   "elkjs": 15
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/hierarchical/wireless_smallworld_SmallWorldRouter_loss.json",
+   "nodeEdgeCount": 52,
+   "elk": 15,
+   "elkjs": 22
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/hierarchical/wireless_smallworld_SmallWorldRouter.json",
+   "nodeEdgeCount": 58,
+   "elk": 17,
+   "elkjs": 22
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/hierarchical/wireless_smartparking_SmartParking.json",
+   "nodeEdgeCount": 35,
+   "elk": 11,
+   "elkjs": 17
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/hierarchical/wireless_terrainmodel_TerrainModel.json",
+   "nodeEdgeCount": 24,
+   "elk": 10,
+   "elkjs": 15
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/hierarchical/wireless_terrainmodel_TerrainModel2.json",
+   "nodeEdgeCount": 34,
+   "elk": 12,
+   "elkjs": 17
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/hierarchical/wireless_wirelesssounddetection_WirelessSoundDetection.json",
+   "nodeEdgeCount": 26,
+   "elk": 9,
+   "elkjs": 21
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/hierarchical/wireless_zigbee_Zigbee.json",
+   "nodeEdgeCount": 112,
+   "elk": 27,
+   "elkjs": 69
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/hierarchical/xslt_momlfiletransformation_momlfilesfordemo_SampleMOMLFile6.json",
+   "nodeEdgeCount": 28,
+   "elk": 9,
+   "elkjs": 18
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/hierarchical/xslt_momlfiletransformation_XMLFileTransformer2.json",
+   "nodeEdgeCount": 48,
+   "elk": 12,
+   "elkjs": 19
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/hierarchical/xslt_momlfiletransformation_XMLFileTransformer3.json",
+   "nodeEdgeCount": 48,
+   "elk": 12,
+   "elkjs": 24
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/hierarchical/xslt_momlfiletransformation_XMLFileTransformerUsingIterateOverArray.json",
+   "nodeEdgeCount": 35,
+   "elk": 9,
+   "elkjs": 18
+  },
+  {
+   "path": "../elk-models/realworld/ptolemy/hierarchical/xslt_momlfiletransformation_XMLFileTransformerUsingXMLInclusion.json",
+   "nodeEdgeCount": 35,
+   "elk": 10,
+   "elkjs": 21
+  },
+  {
+   "path": "../elk-models/tests/layered/node_label_placement/separate.json",
+   "nodeEdgeCount": 2,
+   "elk": 1,
+   "elkjs": 4
+  }
+ ]
+}

@@ -1,0 +1,26 @@
+plugins {
+  id 'com.github.johnrengelman.shadow' version '6.0.0'
+  id 'java'
+}
+
+repositories {
+    jcenter()
+    maven {
+        url 'https://oss.sonatype.org/content/repositories/snapshots'
+    }
+}
+
+ext.versions = [
+    elk: '0.7.0-SNAPSHOT'
+]
+
+dependencies {
+	implementation group: 'org.eclipse.elk', name: 'org.eclipse.elk.graph.json', version: "$versions.elk"
+    implementation group: 'org.eclipse.elk', name: 'org.eclipse.elk.alg.layered', version: "$versions.elk"
+}
+
+jar {
+    manifest {
+        attributes 'Main-Class': 'ElkSpeed'
+    }
+}
