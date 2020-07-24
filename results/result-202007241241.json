@@ -3,7 +3,7 @@
  "versions": {
   "elk": "0.7.0-SNAPSHOT",
   "elkjs": "0.7.0-SNAPSHOT",
-  "java": "openjdk version \"1.8.0_252\"\nOpenJDK Runtime Environment (build 1.8.0_252-8u252-b09-1~18.04-b09)\nOpenJDK 64-Bit Server VM (build 25.252-b09, mixed mode)\n",
+  "java": "1.8.0_252",
   "node": "v12.18.2"
  },
  "kbest": 10,

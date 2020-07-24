@@ -9,13 +9,13 @@ ELK | elkjs
 ![ELK](./results/result-202007241241-elk-bp.svg) | ![elkjs](./results/result-202007241241-elkjs-bp.svg) |
 
 
-## Relative Comparison (Java 8, node.js 12.18)
+## Comparison (Java 8, node.js 12.18)
 
 Absolute | Relative
 -|-
 ![Absolute](./results/result-202007241241-cmp-bp-absolute.svg) | ![Relative](./results/result-202007241241-cmp-bp-relative.svg) |
 
-## Relative Comparison (Java 8, node.js 14.6)
+## Comparison (Java 8, node.js 14.6)
 
 Absolute | Relative
 -|-
