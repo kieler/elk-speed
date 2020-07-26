@@ -1,7 +1,8 @@
 # Execution Time Comparison ELK (Java) vs elkjs
 
+Results shown below are for the Ptolemy models in the [elk-models](https://github.com/eclipse/elk-models) repository. 
 
-Results shown below are for the Ptolemy models in the [elk-models](https://github.com/eclipse/elk-models) repository.
+Each algorithm was run ten times for each diagram, with the shortest execution time being recorded. An up-to-date laptop has been used, see the result files for further specs. 
 
 ## Absolute Execution Times
 ELK | elkjs
