@@ -12,6 +12,8 @@ ELK | elkjs
 
 ## Comparison (Java 8, node.js 12.18)
 
+Numbers larger than 0ms (absolute) or larger than 1.0 (relative) indicate that ELK has been faster than elkjs.
+
 Absolute | Relative
 -|-
 ![Absolute](./results/result-202007241241-cmp-bp-absolute.svg) | ![Relative](./results/result-202007241241-cmp-bp-relative.svg) |
