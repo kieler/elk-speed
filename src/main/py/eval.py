@@ -8,6 +8,7 @@ title = sys.argv[3]
 x = json.loads(sys.argv[4])
 x_tick_labels = json.loads(sys.argv[5])
 filename = sys.argv[6]
+y_lim = sys.argv[7]
 
 ax = plt.axes()
 plt.boxplot(x)
@@ -20,6 +21,9 @@ plt.ylabel(y_label)
 
 plt.xticks(rotation=45)
 ax.set_xticklabels(x_tick_labels)
+
+if y_lim != "auto":
+    plt.ylim(top=float(y_lim))
 
 plt.tight_layout()
 

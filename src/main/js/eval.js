@@ -40,15 +40,20 @@ console.table(results)
 
 console.log("Generating boxplots ...")
 
-const title = Object.keys(data.versions).map((k) =>  `${k}: ${data.versions[k]}`).join(", ")
+const title = Object.keys(data.versions).map((k) => `${k}: ${data.versions[k]}`).join(", ")
 const yLabels = ["All", ""].concat(Object.keys(elkByGraphSize).map((_, i) => `[${i * 100}, ${(i + 1) * 100 - 1}]`))
+
+// For the first two plots we want a common y-axis to improve comparability
+const elkAbsolute = data.results.map((r) => r.elk)
+const elkjsAbsolute = data.results.map((r) => r.elkjs)
+const maxExecutionTime = elkAbsolute.concat(elkjsAbsolute).reduce((a, b) => Math.max(a, b), Number.MIN_SAFE_INTEGER)
+const yLim = Math.ceil(maxExecutionTime / 100) * 100;
 
 // I couldn't find anything simple and quick (without looking for too long) 
 // to render boxplots in node, hence, resort to a small py script.
 const pyEval = './src/main/py/eval.py'
 // ELK absolute
 {
-    const elkAbsolute = data.results.map((r) => r.elk)
     const bucketElkAbsolute = Object.keys(elkByGraphSize).map((k) => {
         return elkByGraphSize[k].map((r) => r.elk)
     })
@@ -59,6 +64,7 @@ const pyEval = './src/main/py/eval.py'
         JSON.stringify([elkAbsolute, []].concat(bucketElkAbsolute)),
         JSON.stringify(yLabels),
         `${dataFile.replace(/\.json/, '')}-elk-bp.svg`,
+        yLim,
     ])
     if (out.stderr.length > 0)
         console.log(out.stderr.toString())
@@ -66,7 +72,6 @@ const pyEval = './src/main/py/eval.py'
 
 // elkjs absolute
 {
-    const elkjsAbsolute = data.results.map((r) => r.elkjs)
     const bucketElkjsAbsolute = Object.keys(elkByGraphSize).map((k) => {
         return elkByGraphSize[k].map((r) => r.elkjs)
     })
@@ -77,6 +82,7 @@ const pyEval = './src/main/py/eval.py'
         JSON.stringify([elkjsAbsolute, []].concat(bucketElkjsAbsolute)),
         JSON.stringify(yLabels),
         `${dataFile.replace(/\.json/, '')}-elkjs-bp.svg`,
+        yLim,
     ])
     if (out.stderr.length > 0)
         console.log(out.stderr.toString())
@@ -94,6 +100,7 @@ const pyEval = './src/main/py/eval.py'
         JSON.stringify([relatives, []].concat(bucketRelatives)),
         JSON.stringify(yLabels),
         `${dataFile.replace(/\.json/, '')}-cmp-bp-relative.svg`,
+        'auto',
     ])
     if (out.stderr.length > 0)
         console.log(out.stderr.toString())
@@ -111,6 +118,7 @@ const pyEval = './src/main/py/eval.py'
         JSON.stringify([differences, []].concat(bucketAbsolute)),
         JSON.stringify(yLabels),
         `${dataFile.replace(/\.json/, '')}-cmp-bp-absolute.svg`,
+        'auto',
     ])
     if (out.stderr.length > 0)
         console.log(out.stderr.toString())
