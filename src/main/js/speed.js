@@ -7,7 +7,7 @@
     const si = require('systeminformation');
 
     const root = '../../..'
-    const ELK = require(`${root}/../elkjs/lib/main.js`)
+    const ELK = require(`${root}/node_modules/elkjs/lib/main.js`)
     const elk = new ELK()
     const graphs = glob.sync(process.argv[2])
 
@@ -59,6 +59,9 @@
         let javaBest = -1
         if (child.stderr.length == 0 && child.stdout.length > 0) {
             javaBest = parseInt(child.stdout.toString())
+        } else {
+            console.log("Problem occurred:")
+            console.log(child.output.toString())
         }
         console.log("java " + javaBest + "ms")
 

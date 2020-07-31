@@ -6,7 +6,7 @@
   "license": "EPL-1.0",
   "dependencies": {
     "dateformat": "^3.0.3",
-    "elkjs": "^0.6.2",
+    "elkjs": "^0.7.0",
     "glob": "^7.1.6",
     "systeminformation": "^4.26.10"
   },
