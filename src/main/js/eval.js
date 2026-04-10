@@ -48,6 +48,7 @@ const elkAbsolute = data.results.map((r) => r.elk)
 const elkjsAbsolute = data.results.map((r) => r.elkjs)
 const maxExecutionTime = elkAbsolute.concat(elkjsAbsolute).reduce((a, b) => Math.max(a, b), Number.MIN_SAFE_INTEGER)
 const yLim = Math.ceil(maxExecutionTime / 100) * 100;
+const hasWasmResults = data.results.some((r) => typeof r.elkWasmGc === 'number')
 
 // I couldn't find anything simple and quick (without looking for too long) 
 // to render boxplots in node, hence, resort to a small py script.
@@ -66,7 +67,7 @@ const pyEval = './src/main/py/eval.py'
         `${dataFile.replace(/\.json/, '')}-elk-bp.svg`,
         yLim,
     ])
-    if (out.stderr.length > 0)
+    if (out.stderr && out.stderr.length > 0)
         console.log(out.stderr.toString())
 }
 
@@ -84,7 +85,7 @@ const pyEval = './src/main/py/eval.py'
         `${dataFile.replace(/\.json/, '')}-elkjs-bp.svg`,
         yLim,
     ])
-    if (out.stderr.length > 0)
+    if (out.stderr && out.stderr.length > 0)
         console.log(out.stderr.toString())
 }
 
@@ -102,7 +103,7 @@ const pyEval = './src/main/py/eval.py'
         `${dataFile.replace(/\.json/, '')}-cmp-bp-relative.svg`,
         'auto',
     ])
-    if (out.stderr.length > 0)
+    if (out.stderr && out.stderr.length > 0)
         console.log(out.stderr.toString())
 }
 
@@ -120,7 +121,65 @@ const pyEval = './src/main/py/eval.py'
         `${dataFile.replace(/\.json/, '')}-cmp-bp-absolute.svg`,
         'auto',
     ])
-    if (out.stderr.length > 0)
+    if (out.stderr && out.stderr.length > 0)
+        console.log(out.stderr.toString())
+}
+
+// elkjs-gwt vs elkjs-wasm relative
+if (hasWasmResults) {
+    const bucketRelatives = Object.keys(elkByGraphSize).map((k) => {
+        return elkByGraphSize[k].map((r) => r.elkjs / r.elkWasmGc)
+    })
+    const wasmRelatives = data.results.map((r) => r.elkjs / r.elkWasmGc)
+    const out = proc.spawnSync('python', [pyEval,
+        'Graph Elements (nodes + edges)',
+        'elkjs-gwt / elkjs-wasm',
+        title,
+        JSON.stringify([wasmRelatives, []].concat(bucketRelatives)),
+        JSON.stringify(yLabels),
+        `${dataFile.replace(/\.json/, '')}-cmp-gwt-wasm-bp-relative.svg`,
+        'auto',
+    ])
+    if (out.stderr && out.stderr.length > 0)
+        console.log(out.stderr.toString())
+}
+
+// Grouped absolute execution times
+{
+    const groupedSeries = [
+        {
+            label: 'elk',
+            color: '#4e79a7',
+            values: [elkAbsolute, []].concat(Object.keys(elkByGraphSize).map((k) => elkByGraphSize[k].map((r) => r.elk))),
+        },
+        {
+            label: 'elkjs-gwt',
+            color: '#f28e2b',
+            values: [elkjsAbsolute, []].concat(Object.keys(elkByGraphSize).map((k) => elkByGraphSize[k].map((r) => r.elkjs))),
+        },
+    ]
+    if (hasWasmResults) {
+        groupedSeries.push({
+            label: 'elkjs-wasm',
+            color: '#59a14f',
+            values: [data.results.map((r) => r.elkWasmGc), []].concat(
+                Object.keys(elkByGraphSize).map((k) => elkByGraphSize[k]
+                    .filter((r) => typeof r.elkWasmGc === 'number')
+                    .map((r) => r.elkWasmGc))
+            ),
+        })
+    }
+    const out = proc.spawnSync('python', [pyEval,
+        'Graph Elements (nodes + edges)',
+        'Execution time [ms]',
+        title,
+        JSON.stringify(groupedSeries),
+        JSON.stringify(yLabels),
+        `${dataFile.replace(/\.json/, '')}-grouped-bp.svg`,
+        yLim,
+        'grouped',
+    ])
+    if (out.stderr && out.stderr.length > 0)
         console.log(out.stderr.toString())
 }
 
@@ -136,6 +195,14 @@ function groupBy(collection, keyFun) {
 }
 
 function getAvgMinMax(collection) {
+    if (collection.length === 0) {
+        return {
+            'Avg': '-',
+            'Min': '-',
+            'Max': '-',
+            'Count': 0,
+        }
+    }
     const min = collection.reduce((a, b) => Math.min(a, b), Number.MAX_SAFE_INTEGER)
     const max = collection.reduce((a, b) => Math.max(a, b), Number.MIN_SAFE_INTEGER)
     const avg = collection.reduce((a, b) => a + b, 0) / collection.length
