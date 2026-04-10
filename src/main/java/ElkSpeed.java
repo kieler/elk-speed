@@ -36,9 +36,9 @@ class ElkSpeed {
             int best = Integer.MAX_VALUE;
 
             for (int i = 0; i < kBest; ++i) {
-                final long start = System.currentTimeMillis();
+                final long start = System.nanoTime();
                 engine.layout(elkGraph, new NullElkProgressMonitor());
-                final long ms = System.currentTimeMillis() - start;
+                final long ms = (System.nanoTime() - start) / 1_000_000L;
 
                 best = Math.min(best, (int) ms);
             }

@@ -4,6 +4,7 @@ const glob = require('glob')
 const path = require('path')
 const proc = require('child_process')
 const si = require('systeminformation')
+const { performance } = require('perf_hooks')
 const { pathToFileURL } = require('url')
 
 const ELK_VERSION = '0.11.0'
@@ -161,9 +162,9 @@ async function measureBestOfK(k, operation) {
     let best = Number.MAX_SAFE_INTEGER
     for (let i = 0; i < k; i++) {
         try {
-            const start = Date.now()
+            const start = performance.now()
             await operation()
-            best = Math.min(best, Date.now() - start)
+            best = Math.min(best, Math.round(performance.now() - start))
         } catch (error) {
             return {
                 best: -1,
