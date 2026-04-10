@@ -33,12 +33,19 @@ npm run venv
 npm run build
 ```
 
-Adjust paths, versions, and packages in `src/main/js/speed.js`, then run
+Benchmark the published default setup (`elkjs` from `package.json` and ELK from Maven Central):
+```
+node src/main/js/speed.js ./../elk-models/**/*.json
+```
+
+Run `elk-speed` with local builds:
+```
+ELKJS_LOCAL_ROOT=../elkjs node src/main/js/speed.js ./../elk-models/**/*.json
+```
+
+Generate plots from a result file with:
 ```
 source ./.venv/bin/activate
-
-node src/main/js/speed.js ./../elk-models/**/*.json
-
 node src/main/js/eval.js ./results/result-202007241256.json
 ```
 
