@@ -1,21 +1,18 @@
 plugins {
-  id 'com.github.johnrengelman.shadow' version '6.0.0'
+  id 'com.github.johnrengelman.shadow' version '8.1.1'
   id 'java'
 }
 
 repositories {
-    jcenter()
-    maven {
-        url 'https://oss.sonatype.org/content/repositories/snapshots'
-    }
+    mavenCentral()
 }
 
 ext.versions = [
-    elk: '0.7.0'
+    elk: '0.11.0'
 ]
 
 dependencies {
-	implementation group: 'org.eclipse.elk', name: 'org.eclipse.elk.graph.json', version: "$versions.elk"
+    implementation group: 'org.eclipse.elk', name: 'org.eclipse.elk.graph.json', version: "$versions.elk"
     implementation group: 'org.eclipse.elk', name: 'org.eclipse.elk.alg.layered', version: "$versions.elk"
 }
 
