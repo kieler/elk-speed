@@ -4,21 +4,22 @@ Results shown below are for the Ptolemy models in the [elk-models](https://githu
 
 Each algorithm was run ten times for each diagram, with the shortest execution time being recorded. An up-to-date laptop has been used, see the result files for further specs. 
 
-## Absolute Execution Times
-ELK | elkjs
--|-
-![ELK](./results/result-202007241241-elk-bp.svg) | ![elkjs](./results/result-202007241241-elkjs-bp.svg) |
+## Absolute Execution Times (Core i5-14400)
+
+ELK | elkjs | elkjs-wasm
+-|-|-
+![ELK](./results/result-202604101339-elk-bp.svg) | ![elkjs](./results/result-202604101339-elkjs-bp.svg) |![elkjs](./results/result-202604101339-grouped-bp.svg) |
 
 
-## Comparison (Java 8, node.js 12.18)
+## Comparison (Core i5-14400)
 
 Numbers larger than 0ms (absolute) or larger than 1.0 (relative) indicate that ELK has been faster than elkjs.
 
-Absolute | Relative
--|-
-![Absolute](./results/result-202007241241-cmp-bp-absolute.svg) | ![Relative](./results/result-202007241241-cmp-bp-relative.svg) |
+Absolute | Relative | Relative (gwt / wasm)
+-|-|-
+![Absolute](./results/result-202604101339-cmp-bp-absolute.svg) | ![Relative](./results/result-202604101339-cmp-bp-relative.svg) | ![Relative](./results/result-202604101339-cmp-gwt-wasm-bp-relative.svg) |
 
-## Comparison (Java 8, node.js 14.6)
+## Comparison (Java 8, node.js 14.6, Core i7-8550U)
 
 Absolute | Relative
 -|-
